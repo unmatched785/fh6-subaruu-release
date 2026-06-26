@@ -1,9 +1,9 @@
-# FH6 Mastery Helper Releases
+# FH6 Subaruu Releases
 
-Release-only repository for a Windows x64 helper package.
+Release-only repository for FH6 Subaruu Windows x64 portable builds.
 
-This repository does not publish source code or development logs. Use the
-release assets if you want the portable build.
+This repository publishes portable release assets only. It does not publish
+source code, development logs, or private workspace history.
 
 ## Download
 
@@ -26,4 +26,3 @@ Latest release:
 
 The portable package is self-contained for Windows x64. A separate .NET Desktop
 Runtime install is not required.
-
