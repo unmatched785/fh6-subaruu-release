@@ -7,8 +7,10 @@ source code, development logs, or private workspace history.
 
 ## Download
 
-Latest EventLab favorites builds are temporarily paused for local debugging.
-Use the release list only if you intentionally need an older build.
+Latest release:
+
+- `subaruu-eventlab-menu-wait-fix-portable-win-x64-20260628.zip`
+- SHA256: `412FA3708A89B36C453C408C81050658D0A689543001D5869E7882C9274D3AD7`
 
 ## Notes
 
@@ -18,14 +20,20 @@ Use the release list only if you intentionally need an older build.
   change behavior.
 - Purchase manufacturer and vehicle positions must be checked manually in your
   own environment.
-- Xbox/Game Pass share-code input and EventLab favorites routing are being
-  debugged locally before the next public package.
+- If the Windows/Xbox Game UI on-screen keyboard blocks share-code input,
+  favorite the EventLab map and leave the map-code field empty. Empty map code
+  uses the in-game `My Favorites` route instead of the share-code input box.
+- Empty map-code EventLab menu selections use fixed 3-second waits. The Subaru
+  Run tab `로딩 대기` value is used after selecting the work car, while the
+  actual EventLab map loads.
 - If a map code is entered, this build still tries clipboard paste first,
   verifies it, then falls back to direct foreground digit input.
 - Release packages no longer include `subaruu.conf`; user settings are generated
   locally and backed up as `subaruu.conf.bak` before changes are saved.
 - For EventLab image mode, the safest setup is keeping only the target 1998
   Subaru work car in favorites.
+- Work-car image mode selects by keyboard first, verifies the selected card,
+  and uses mouse click only as a backup.
 - Sparse manufacturer lists where SUBARU is already selected are accepted
   without unnecessary grid movement.
 - If EventLab loading is slow and Enter is sent too early, raise the Subaru Run
