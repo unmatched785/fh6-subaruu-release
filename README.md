@@ -9,8 +9,8 @@ source code, development logs, or private workspace history.
 
 Latest release:
 
-- `subaruu-mazda-work-portable-win-x64-20260626-1907.zip`
-- SHA256: `0C0C050C79AAD24EAE3A81C0B91421755FDA118801E88324E51A6CB9CFD658E0`
+- `subaruu-gameui-keyboard-fix-portable-win-x64-20260627.zip`
+- SHA256: `3A8F16CD924826128D69874E8C6CEA3AEE6DAD70A184758080CB4550417813BC`
 
 ## Notes
 
@@ -20,6 +20,8 @@ Latest release:
   change behavior.
 - Purchase manufacturer and vehicle positions must be checked manually in your
   own environment.
+- If the Windows/Xbox Game UI on-screen keyboard opens at the share-code input,
+  this build sends the share code as foreground keyboard input.
 - Start with a short test run before using longer presets.
 
 ## Package
