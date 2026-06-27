@@ -9,8 +9,8 @@ source code, development logs, or private workspace history.
 
 Latest release:
 
-- `subaruu-fast-workcar-portable-win-x64-20260627.zip`
-- SHA256: `F24269F52D8AB84468D053054F5611070C2DD0ABEB4826023EB9E369B3669F45`
+- `subaruu-manufacturer-selected-fix-portable-win-x64-20260627.zip`
+- SHA256: `E5A49CE73FC20D52DA045929D3DB3F9DA95359994837DE86EC8488370A6580BB`
 
 ## Notes
 
@@ -26,6 +26,8 @@ Latest release:
   locally and backed up as `subaruu.conf.bak` before changes are saved.
 - For EventLab image mode, the safest setup is keeping only the target 1998
   Subaru work car in favorites.
+- Sparse manufacturer lists where SUBARU is already selected are accepted
+  without unnecessary grid movement.
 - EventLab work-car recognition targets exact default-blue 1998 Subaru card
   images first. Body-only matching is stricter and used only as a backup because
   similar blue Subaru favorites can reduce visual discrimination.
