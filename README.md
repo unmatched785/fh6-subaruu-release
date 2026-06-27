@@ -9,8 +9,8 @@ source code, development logs, or private workspace history.
 
 Latest release:
 
-- `subaruu-gameui-keyboard-fix-portable-win-x64-20260627.zip`
-- SHA256: `3A8F16CD924826128D69874E8C6CEA3AEE6DAD70A184758080CB4550417813BC`
+- `subaruu-settings-safe-portable-win-x64-20260627.zip`
+- SHA256: `BFE1EFDF308CF371D41F6FAA95F09425EAB0A42D27B13504356804931838912F`
 
 ## Notes
 
@@ -22,6 +22,8 @@ Latest release:
   own environment.
 - If the Windows/Xbox Game UI on-screen keyboard opens at the share-code input,
   this build sends the share code as foreground keyboard input.
+- Release packages no longer include `subaruu.conf`; user settings are generated
+  locally and backed up as `subaruu.conf.bak` before changes are saved.
 - Start with a short test run before using longer presets.
 
 ## Package
