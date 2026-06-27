@@ -7,10 +7,8 @@ source code, development logs, or private workspace history.
 
 ## Download
 
-Latest release:
-
-- `subaruu-empty-mapcode-hotfix-portable-win-x64-20260628.zip`
-- SHA256: `F3020983EC57831B551E29FA32C61454D769A888511E7C2C33EA1FB3D737C4AB`
+Latest EventLab favorites builds are temporarily paused for local debugging.
+Use the release list only if you intentionally need an older build.
 
 ## Notes
 
@@ -20,10 +18,8 @@ Latest release:
   change behavior.
 - Purchase manufacturer and vehicle positions must be checked manually in your
   own environment.
-- If the Windows/Xbox Game UI on-screen keyboard blocks share-code input,
-  favorite the EventLab map and leave the map-code field empty. Empty map code
-  uses the in-game `My Favorites` route instead of the share-code input box.
-- The default package config now leaves the EventLab map-code field empty.
+- Xbox/Game Pass share-code input and EventLab favorites routing are being
+  debugged locally before the next public package.
 - If a map code is entered, this build still tries clipboard paste first,
   verifies it, then falls back to direct foreground digit input.
 - Release packages no longer include `subaruu.conf`; user settings are generated
