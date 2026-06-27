@@ -9,8 +9,8 @@ source code, development logs, or private workspace history.
 
 Latest release:
 
-- `subaruu-default-workcar-portable-win-x64-20260627.zip`
-- SHA256: `EF5900F4AC069FECD5F1536CEA9107CFC0AA34392D8231A6F6DE7A574FBF74E4`
+- `subaruu-fast-workcar-portable-win-x64-20260627.zip`
+- SHA256: `F24269F52D8AB84468D053054F5611070C2DD0ABEB4826023EB9E369B3669F45`
 
 ## Notes
 
@@ -24,8 +24,11 @@ Latest release:
   this build sends the share code as foreground keyboard input.
 - Release packages no longer include `subaruu.conf`; user settings are generated
   locally and backed up as `subaruu.conf.bak` before changes are saved.
-- EventLab work-car recognition targets the default blue 1998 Subaru 22B first;
-  a blue rally livery image is included only as an extra helper template.
+- For EventLab image mode, the safest setup is keeping only the target 1998
+  Subaru work car in favorites.
+- EventLab work-car recognition targets exact default-blue 1998 Subaru card
+  images first. Body-only matching is stricter and used only as a backup because
+  similar blue Subaru favorites can reduce visual discrimination.
 - Start with a short test run before using longer presets.
 
 ## Package
