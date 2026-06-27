@@ -9,8 +9,8 @@ source code, development logs, or private workspace history.
 
 Latest release:
 
-- `subaruu-eventlab-code-wait-portable-win-x64-20260628.zip`
-- SHA256: `66F5BE0F5B0429095345A6D940892187857D00D085EDEC0402A24679481381B5`
+- `subaruu-eventlab-favorites-portable-win-x64-20260628.zip`
+- SHA256: `CF89CE2BE6651A52ED139935D7533057E04EFEF728D173422898CBF5957639AE`
 
 ## Notes
 
@@ -20,8 +20,11 @@ Latest release:
   change behavior.
 - Purchase manufacturer and vehicle positions must be checked manually in your
   own environment.
-- If the Windows/Xbox Game UI on-screen keyboard opens at the share-code input,
-  this build sends the share code as foreground keyboard input.
+- If the Windows/Xbox Game UI on-screen keyboard blocks share-code input,
+  favorite the EventLab map and leave the map-code field empty. Empty map code
+  uses the in-game `My Favorites` route instead of the share-code input box.
+- If a map code is entered, this build still tries clipboard paste first,
+  verifies it, then falls back to direct foreground digit input.
 - Release packages no longer include `subaruu.conf`; user settings are generated
   locally and backed up as `subaruu.conf.bak` before changes are saved.
 - For EventLab image mode, the safest setup is keeping only the target 1998
