@@ -9,8 +9,8 @@ source code, development logs, or private workspace history.
 
 Latest release:
 
-- `subaruu-manufacturer-selected-fix-portable-win-x64-20260627.zip`
-- SHA256: `E5A49CE73FC20D52DA045929D3DB3F9DA95359994837DE86EC8488370A6580BB`
+- `subaruu-eventlab-load-wait-portable-win-x64-20260628.zip`
+- SHA256: `3E435A8CADFE1EDB0468C00319E96795BACA6F47BA1CECFBCF4360D32B5F410A`
 
 ## Notes
 
@@ -28,6 +28,8 @@ Latest release:
   Subaru work car in favorites.
 - Sparse manufacturer lists where SUBARU is already selected are accepted
   without unnecessary grid movement.
+- If EventLab loading is slow and Enter is sent too early, raise the All-in-one
+  tab `로딩` value from the default 20 seconds to 30-45 seconds.
 - EventLab work-car recognition targets exact default-blue 1998 Subaru card
   images first. Body-only matching is stricter and used only as a backup because
   similar blue Subaru favorites can reduce visual discrimination.
