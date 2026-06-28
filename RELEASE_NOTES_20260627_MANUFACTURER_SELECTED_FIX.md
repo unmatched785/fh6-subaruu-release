@@ -1,37 +1,30 @@
-# Manufacturer Selected Fix Portable Build 2026-06-27
+# 2026-06-27 - SUBARU 제조사 선택 보정 빌드
 
-## Download
+제조사 화면에 SUBARU만 보이거나 이미 선택되어 있는 상태에서 불필요하게 격자 탐색을 하다 멈춘 것처럼 보이는 문제를 보정한 빌드입니다.
 
-- `subaruu-manufacturer-selected-fix-portable-win-x64-20260627.zip`
+## 다운로드
+
+- 파일: `subaruu-manufacturer-selected-fix-portable-win-x64-20260627.zip`
 - SHA256: `E5A49CE73FC20D52DA045929D3DB3F9DA95359994837DE86EC8488370A6580BB`
 
-## Changed
+## 바뀐 점
 
-- Fixed a freeze-like EventLab image-mode case on sparse manufacturer lists where
-  SUBARU is already selected and is the only visible manufacturer item.
-- Already-selected SUBARU now passes at score `0.920` instead of `0.930`.
-- If the selected cell passes, the macro skips the surrounding manufacturer grid
-  scan and uses movement `0,0`.
-- Kept the generic manufacturer grid threshold at `0.800`.
-- Kept the WULING safety margin: observed selected WULING samples around `0.887`
-  remain below the new selected-SUBARU threshold.
-- Kept the fast exact-card work-car recognition from the previous build.
-- Kept the settings-safe packaging behavior: `subaruu.conf` is not included in
-  the zip, and user settings are backed up before saving.
+- SUBARU가 이미 선택되어 있고 제조사 항목이 거의 비어 있는 화면을 처리합니다.
+- 이미 선택된 SUBARU 판정 기준을 `0.930`에서 `0.920`으로 조정했습니다.
+- 선택칸이 SUBARU로 충분히 판정되면 주변 격자 탐색을 건너뛰고 이동값 `0,0`으로 처리합니다.
+- 일반 제조사 격자 탐색 기준은 `0.800`으로 유지했습니다.
+- WULING이 선택된 화면을 SUBARU로 오인하지 않도록 안전 여유를 확인했습니다.
+- 빠른 기본 작업차 카드 인식과 설정 보호 패키징은 유지했습니다.
 
-## Verified
+## 검증한 내용
 
-- Built as Windows x64 self-contained portable package.
-- Sparse selected-SUBARU screenshot: selected score `0.923`, accepted with
-  movement `0,0`.
-- WULING-selected screenshots: selected scores `0.880` and `0.887`, not accepted
-  as selected SUBARU.
-- Default blue 4K work-car card still matches as exact card with score `1.000`.
-- Confirmed the package includes `subaruu.default.conf` and does not include
-  `subaruu.conf`.
+- Windows x64 self-contained portable 패키지 빌드 확인
+- SUBARU만 보이는 제조사 화면에서 선택 점수 `0.923`, 이동값 `0,0` 확인
+- WULING 선택 화면 점수 `0.880`, `0.887`이 SUBARU로 통과하지 않는 것 확인
+- 기본 파란 4K 작업차 카드가 점수 `1.000`으로 계속 인식되는 것 확인
+- ZIP 안에 `subaruu.default.conf` 포함, `subaruu.conf` 미포함 확인
 
-## Notes
+## 주의
 
-This is an unofficial personal convenience tool. Use is entirely at your own
-risk. Game updates, resolution, garage state, DLC ownership, and menu position
-can change behavior, so start with a short test run.
+게임 업데이트, 해상도, 차고 상태, DLC 보유 상태에 따라 화면 구성이 달라질 수 있습니다.
+긴 작업 전에는 테스트런으로 확인하세요.

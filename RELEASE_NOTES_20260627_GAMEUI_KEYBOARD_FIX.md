@@ -1,37 +1,29 @@
-# FH6 Subaruu - Game UI Keyboard Fix Portable 2026-06-27
+# 2026-06-27 - Game UI 키보드 입력 대응 빌드
 
-Unofficial FH6 Subaruu personal convenience automation helper. Use at your own
-risk.
+Xbox/Game Pass 환경에서 이벤트랩 공유코드 입력창이 게임 본창이 아니라 Game UI 입력창으로 열리는 문제를 완화한 빌드입니다.
 
-## Included
+## 다운로드
 
-- Windows x64 portable package
-- Self-contained runtime bundle
-- Mazda work preset configuration preserved from the previous release
-- EventLab share-code input changed to foreground keyboard events
-- Troubleshooting note for Windows/Xbox Game UI on-screen keyboard cases
+- 파일: `subaruu-gameui-keyboard-fix-portable-win-x64-20260627.zip`
+- SHA256: `3A8F16CD924826128D69874E8C6CEA3AEE6DAD70A184758080CB4550417813BC`
 
-## Why
+## 바뀐 점
 
-Some Game Pass / Xbox Game UI environments open a separate share-code text box
-and show the on-screen keyboard. In that state, sending digit key messages to
-the game window can fail because the text field is not the game window itself.
+- 이벤트랩 공유코드 입력 구간을 전경 키보드 입력 방식으로 변경했습니다.
+- 공유코드 숫자 입력과 검색 Enter만 전경 입력으로 처리합니다.
+- 이전 마즈다작 프리셋 설정은 유지했습니다.
+- Game UI 화면 키보드 문제에 대한 안내를 추가했습니다.
 
-This build sends only the EventLab share-code digits and search Enter as
-foreground keyboard input. Do not click another window while the macro is
-entering the code.
+## 왜 필요한가
 
-## Still Important
+일부 Xbox/Game Pass 환경에서는 공유코드 입력창이 별도 Game UI 텍스트 박스로 열립니다.
+이 상태에서는 게임 창에 숫자 키 메시지를 보내도 실제 입력창에 들어가지 않을 수 있습니다.
 
-- Purchase manufacturer and vehicle positions are environment-specific and must
-  be checked manually.
-- Start with the minimal or recommended test run before a long run.
-- If this still fails on a specific machine, use an EventLab favorite/manual
-  route as a fallback until a separate favorite-entry mode exists.
+이 빌드는 공유코드 입력 순간에만 실제 전경 키 입력을 사용합니다.
+매크로가 코드를 입력하는 동안에는 다른 창을 클릭하거나 키보드/게임패드를 조작하지 마세요.
 
-## Hash
+## 주의
 
-```text
-3A8F16CD924826128D69874E8C6CEA3AEE6DAD70A184758080CB4550417813BC  subaruu-gameui-keyboard-fix-portable-win-x64-20260627.zip
-```
-
+- 구매 제조사와 차량 위치는 사용자마다 직접 확인해야 합니다.
+- 긴 작업 전에 테스트런으로 먼저 확인하세요.
+- 이 방식도 막히는 환경에서는 이벤트랩 즐겨찾기 경로를 사용해야 합니다.

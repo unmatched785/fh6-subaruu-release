@@ -1,38 +1,30 @@
-# Fast Work-Car Portable Build 2026-06-27
+# 2026-06-27 - 빠른 작업차 인식 빌드
 
-## Download
+기본 파란 1998 SUBARU 작업차 카드가 보이면 빠르게 확정하도록 이미지 인식 순서를 개선한 빌드입니다.
 
-- `subaruu-fast-workcar-portable-win-x64-20260627.zip`
+## 다운로드
+
+- 파일: `subaruu-fast-workcar-portable-win-x64-20260627.zip`
 - SHA256: `F24269F52D8AB84468D053054F5611070C2DD0ABEB4826023EB9E369B3669F45`
 
-## Changed
+## 바뀐 점
 
-- Added a 4K default blue `1998 SUBARU` work-car card helper template.
-- Work-car recognition now checks exact default blue 22B card images first.
-- If an exact card match reaches a strong score, the macro accepts it
-  immediately and skips slower `1998 SUBARU` text and `전설` fallback scans.
-- Body-only matching is stricter and used only as a backup, because similar blue
-  Subaru favorites can reduce visual discrimination.
-- Kept the optional blue rally livery helper, but the macro does not depend on
-  any shared livery/decal being available.
-- Kept the previous Windows/Xbox Game UI foreground keyboard input fix.
-- Kept the settings-safe packaging behavior: `subaruu.conf` is not included in
-  the zip, and user settings are backed up before saving.
+- 4K 기본 파란 `1998 SUBARU` 작업차 카드 템플릿을 추가했습니다.
+- 기본 파란 22B 카드의 정확 매칭을 가장 먼저 확인합니다.
+- 정확 카드 점수가 충분히 높으면 느린 `1998 SUBARU` 텍스트/`전설` fallback 탐색을 건너뜁니다.
+- 비슷한 파란 SUBARU 즐겨찾기가 있을 때 오인을 줄이기 위해 차체 단독 매칭은 더 엄격하게 조정했습니다.
+- 파란 랠리 리버리 템플릿은 보조로만 유지했습니다.
+- 공유 데칼이 없어도 기본 파란 차량으로 계속 찾을 수 있게 했습니다.
+- Game UI 키보드 입력 대응과 설정 보호 패키징은 유지했습니다.
 
-## Verified
+## 검증한 내용
 
-- Built as Windows x64 self-contained portable package.
-- Packaged dry-run selected the provided default blue 4K card with exact-card
-  score `1.000` in about `140ms`.
-- Packaged dry-run selected the target 1998 Subaru card from the sample Subaru
-  garage screen through the stricter body backup with score `0.947` in about
-  `109ms`.
-- Confirmed the package includes `subaruu.default.conf` and does not include
-  `subaruu.conf`.
+- Windows x64 self-contained portable 패키지 빌드 확인
+- 기본 파란 4K 카드 dry-run에서 정확 카드 점수 `1.000` 확인
+- 샘플 SUBARU 차고 화면에서 보조 차체 인식 점수 `0.947` 확인
+- ZIP 안에 `subaruu.default.conf` 포함, `subaruu.conf` 미포함 확인
 
-## Notes
+## 주의
 
-This is an unofficial personal convenience tool. Use is entirely at your own
-risk. Game updates, garage state, DLC ownership, and menu position can change
-behavior, so start with a short test run. For EventLab image mode, the safest
-setup is keeping only the target 1998 Subaru work car in favorites.
+이벤트랩 이미지 모드에서는 즐겨찾기에 목표 1998 SUBARU 작업차 1대만 남기는 것이 가장 안전합니다.
+사용은 전적으로 사용자 본인 책임입니다.

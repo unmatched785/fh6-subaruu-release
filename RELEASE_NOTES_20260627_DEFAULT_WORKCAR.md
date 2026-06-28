@@ -1,34 +1,29 @@
-# Default Work-Car Portable Build 2026-06-27
+# 2026-06-27 - 기본 작업차 인식 빌드
 
-## Download
+공유 데칼이 내려가도 작업차를 찾을 수 있도록, 기본 파란 1998 SUBARU 작업차 인식을 우선 적용한 빌드입니다.
 
-- `subaruu-default-workcar-portable-win-x64-20260627.zip`
+## 다운로드
+
+- 파일: `subaruu-default-workcar-portable-win-x64-20260627.zip`
 - SHA256: `EF5900F4AC069FECD5F1536CEA9107CFC0AA34392D8231A6F6DE7A574FBF74E4`
 
-## Changed
+## 바뀐 점
 
-- EventLab work-car recognition now targets the default blue `1998 SUBARU`
-  Impreza 22B-STi first.
-- Added a blue rally livery image only as an extra helper template.
-- The macro no longer depends on a discontinued shared livery/decal to find the
-  work car.
-- Work-car matching now searches the actual car/body/card templates before the
-  generic orange `전설` label, reducing false matches against unrelated legendary
-  cars or top UI labels.
-- Kept the previous Windows/Xbox Game UI foreground keyboard input fix.
-- Kept the settings-safe packaging behavior: `subaruu.conf` is not included in
-  the zip, and user settings are backed up before saving.
+- 이벤트랩 작업차 인식 기준을 기본 파란 `1998 SUBARU IMPREZA 22B-STI`로 변경했습니다.
+- 파란 랠리 리버리 이미지는 보조 템플릿으로만 남겼습니다.
+- 특정 공유 데칼/리버리에 의존하지 않도록 바꿨습니다.
+- 주황색 `전설` 라벨보다 실제 차량/차체/카드 템플릿을 먼저 보도록 순서를 조정했습니다.
+- 관련 없는 전설 차량이나 상단 UI 라벨을 작업차로 오인할 가능성을 줄였습니다.
+- Game UI 키보드 입력 대응과 설정 보호 패키징은 유지했습니다.
 
-## Verified
+## 검증한 내용
 
-- Built as Windows x64 self-contained portable package.
-- Packaged dry-run selected the target 1998 Subaru card from the sample Subaru
-  garage screen with score `0.947`.
-- Confirmed the package includes `subaruu.default.conf` and does not include
-  `subaruu.conf`.
+- Windows x64 self-contained portable 패키지 빌드 확인
+- 샘플 SUBARU 차고 화면에서 목표 1998 SUBARU 카드 선택 확인
+- 작업차 인식 점수 `0.947` 확인
+- ZIP 안에 `subaruu.default.conf` 포함, `subaruu.conf` 미포함 확인
 
-## Notes
+## 주의
 
-This is an unofficial personal convenience tool. Use is entirely at your own
-risk. Game updates, garage state, DLC ownership, and menu position can change
-behavior, so start with a short test run.
+게임 업데이트, 차고 상태, DLC 보유 상태, 메뉴 위치에 따라 동작이 달라질 수 있습니다.
+긴 작업 전에 짧은 테스트런부터 실행하세요.
