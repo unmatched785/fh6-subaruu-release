@@ -1,30 +1,63 @@
-# EventLab Menu-Wait Fix Build 2026-06-28
+# EventLab menu-wait fix portable build 2026-06-28
 
-Portable Windows x64 build:
+이번 버전은 이벤트랩 진입 방식과 작업차 선택 방식을 정리한 배포판입니다.
+특히 Xbox/Game Pass 환경에서 공유코드 입력창에 가상 키보드가 떠서 막히는 경우를 피하기 위해, 맵 코드 입력 대신 `내 즐겨찾기` 이벤트랩 경로를 사용할 수 있게 했습니다.
 
-- `subaruu-eventlab-menu-wait-fix-portable-win-x64-20260628.zip`
-- SHA256: `412FA3708A89B36C453C408C81050658D0A689543001D5869E7882C9274D3AD7`
+## 다운로드
 
-## Changes
+- 파일: `subaruu-eventlab-menu-wait-fix-portable-win-x64-20260628.zip`
+- SHA256: `D9510BC2E279B94ADA019AA1736DC00263F1E0EB463F40DFA9D7D0484D0196C8`
 
-- Empty map-code mode is enabled for public distribution again.
-- Empty map code uses the in-game `My Favorites` EventLab route.
-- My Favorites route uses `PageDown` 7 times, then `Enter` 1/2, 3-second wait, `Enter` 2/2, 3-second wait.
-- EventLab internal menu selections use fixed 3-second waits.
-- The Subaru Run tab `로딩 대기` value is now reserved for the actual EventLab map loading wait after selecting the work car.
-- Work-car image mode now selects by keyboard first: detect the target card, move with Up/Down, verify the selected card, then press Enter.
-- Mouse click remains only as a backup if keyboard selection verification fails.
-- Non-empty map code still uses the share-code route with clipboard paste, verification, and foreground digit fallback.
-- The package still does not include `subaruu.conf`, so existing user settings are not overwritten by the ZIP.
+## 이번 버전에서 바뀐 점
 
-## Verification
+- `맵 코드` 칸을 비워두면 공유코드 입력창을 열지 않고 `내 즐겨찾기` 이벤트랩 경로를 사용합니다.
+- 내 즐겨찾기 경로는 `PageDown` 7회 후 `Enter`, 3초 대기, `Enter`, 3초 대기 순서로 진행합니다.
+- 이벤트랩 내부 메뉴 선택 대기는 3초 고정으로 정리했습니다.
+- 스바루런 탭의 `로딩 대기` 값은 작업차 선택 후 실제 이벤트맵 로딩을 기다릴 때만 사용합니다.
+- 작업차 선택은 이미지로 목표 카드를 찾은 뒤 키보드 `↑`/`↓` 이동을 우선 사용합니다.
+- 선택된 카드가 1998 SUBARU 작업차인지 다시 검증한 뒤 `Enter`를 누릅니다.
+- 마우스 클릭은 키보드 선택 검증이 실패했을 때만 백업으로 사용합니다.
+- 맵 코드가 입력되어 있으면 기존처럼 공유코드 입력 경로를 사용합니다.
+- 공유코드 입력은 클립보드 붙여넣기, 입력값 검증, 숫자 직접 입력 fallback 순서로 동작합니다.
+- 배포 ZIP에는 `subaruu.conf`를 포함하지 않습니다. 기존 사용자 설정을 덮어쓰지 않기 위한 처리입니다.
 
-- Published self-contained Windows x64 build succeeded.
-- User local run confirmed the empty map-code favorites route works.
-- ZIP contents were checked: no `subaruu.conf`, and `subaruu.default.conf` contains blank `EventLabCode=` and `TestEventLabCode=`.
-- Manufacturer dry-run on the sparse selected-SUBARU report screen passed with selected SUBARU score `0.923`.
-- Work-car dry-run on the default-blue 1998 SUBARU 4K card passed with exact card score `1.000` and `runtimeSelection=keyboard-first`.
+## 사용법에서 특히 달라진 점
 
-## Reminder
+### Xbox/Game Pass 사용자는 맵 코드를 비우는 방식을 권장
 
-This is an unofficial personal convenience tool. Use is entirely at your own risk.
+공유코드 입력창에 가상 키보드가 뜨면 키 입력이 다른 UI로 빼앗길 수 있습니다.
+이벤트랩 맵을 미리 즐겨찾기해 두고, 프로그램의 `맵 코드` 칸을 비워두세요.
+
+### 작업차는 즐겨찾기에 넣어두기
+
+이벤트랩 차량 선택은 이미지 인식으로 1998 SUBARU 작업차를 찾습니다.
+가장 안전한 설정은 즐겨찾기에 작업차 1대만 남기는 것입니다.
+비슷한 파란 SUBARU 차량이 여러 대 있으면 변별성이 떨어질 수 있습니다.
+
+### 구매 위치는 직접 확인
+
+구매 제조사와 차량 위치는 사용자마다 다를 수 있습니다.
+DLC 보유 상태, 차고 상태, 신규 차량 추가 여부에 따라 이동 횟수가 달라집니다.
+공유된 값은 참고용이고, 본인 화면에서 직접 확인해야 합니다.
+
+### 긴 올인원 전에 테스트런 권장
+
+처음부터 긴 올인원을 돌리지 마세요.
+`테스트` 탭의 `최소런` 또는 `권장런`으로 이벤트랩 진입, 작업차 선택, 구매, 슈퍼휠, 삭제 흐름이 이어지는지 먼저 확인하세요.
+
+## 검증한 내용
+
+- Windows x64 self-contained 배포 ZIP 생성 확인
+- 패키지 내부 README를 한국어 상세 매뉴얼로 교체
+- ZIP 안에 `subaruu.conf`가 포함되지 않는 것 확인
+- `subaruu.default.conf`의 `EventLabCode=`와 `TestEventLabCode=`가 비어 있는 것 확인
+- SUBARU만 보이는 제조사 화면 dry-run 통과
+- 기본 파란 1998 SUBARU 4K 작업차 카드 dry-run 통과
+- 작업차 선택 dry-run에서 `runtimeSelection=keyboard-first` 확인
+- 사용자 로컬 실행에서 맵 코드 빈 값의 내 즐겨찾기 경로 동작 확인
+
+## 주의
+
+이 도구는 비공식 개인 편의 도구입니다.
+사용은 전적으로 사용자 본인 책임입니다.
+게임 업데이트, 해상도, DLC 보유 상태, 차고 상태, 즐겨찾기 목록, PC 로딩 속도에 따라 동작이 달라질 수 있습니다.

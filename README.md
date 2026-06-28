@@ -1,49 +1,234 @@
 # FH6 Subaruu Releases
 
-Release-only repository for FH6 Subaruu Windows x64 portable builds.
+FH6 스바루런, 차량 구매, 자동차 마스터리, 삭제 루프를 보조하는 비공식 Windows x64 배포 저장소입니다.
 
-This repository publishes portable release assets only. It does not publish
-source code, development logs, or private workspace history.
+이 저장소는 배포용 ZIP, 릴리즈 노트, 사용 안내만 제공합니다.
+소스 코드, 개발 로그, 개인 작업 내역은 포함하지 않습니다.
 
-## Download
+## 최신 다운로드
 
-Latest release:
+최신 릴리즈:
 
-- `subaruu-eventlab-menu-wait-fix-portable-win-x64-20260628.zip`
-- SHA256: `412FA3708A89B36C453C408C81050658D0A689543001D5869E7882C9274D3AD7`
+- [EventLab menu-wait fix portable build 2026-06-28](https://github.com/unmatched785/fh6-subaruu-release/releases/tag/eventlab-menu-wait-fix-20260628)
+- 파일: `subaruu-eventlab-menu-wait-fix-portable-win-x64-20260628.zip`
+- SHA256: `D9510BC2E279B94ADA019AA1736DC00263F1E0EB463F40DFA9D7D0484D0196C8`
 
-## Notes
+ZIP을 새 폴더에 풀고 `subaruu.exe`를 실행하세요.
+기존 폴더에 덮어 풀어도 `subaruu.conf`는 배포 ZIP에 포함하지 않으므로 기존 사용자 설정을 덮어쓰지 않습니다.
 
-- This is an unofficial personal convenience tool.
-- Use is entirely at your own risk.
-- Game updates, resolution, garage state, DLC ownership, and menu position can
-  change behavior.
-- Purchase manufacturer and vehicle positions must be checked manually in your
-  own environment.
-- If the Windows/Xbox Game UI on-screen keyboard blocks share-code input,
-  favorite the EventLab map and leave the map-code field empty. Empty map code
-  uses the in-game `My Favorites` route instead of the share-code input box.
-- Empty map-code EventLab menu selections use fixed 3-second waits. The Subaru
-  Run tab `로딩 대기` value is used after selecting the work car, while the
-  actual EventLab map loads.
-- If a map code is entered, this build still tries clipboard paste first,
-  verifies it, then falls back to direct foreground digit input.
-- Release packages no longer include `subaruu.conf`; user settings are generated
-  locally and backed up as `subaruu.conf.bak` before changes are saved.
-- For EventLab image mode, the safest setup is keeping only the target 1998
-  Subaru work car in favorites.
-- Work-car image mode selects by keyboard first, verifies the selected card,
-  and uses mouse click only as a backup.
-- Sparse manufacturer lists where SUBARU is already selected are accepted
-  without unnecessary grid movement.
-- If EventLab loading is slow and Enter is sent too early, raise the Subaru Run
-  tab `로딩 대기` value from the default 20 seconds to 30-45 seconds.
-- EventLab work-car recognition targets exact default-blue 1998 Subaru card
-  images first. Body-only matching is stricter and used only as a backup because
-  similar blue Subaru favorites can reduce visual discrimination.
-- Start with a short test run before using longer presets.
+## 중요한 전제
 
-## Package
+이 도구는 게임 입력과 화면 인식에 의존합니다.
+다음 조건이 달라지면 설정값도 달라질 수 있습니다.
 
-The portable package is self-contained for Windows x64. A separate .NET Desktop
-Runtime install is not required.
+- 게임 업데이트
+- 해상도와 UI 스케일
+- DLC 보유 상태
+- 차고/즐겨찾기 상태
+- 구매하려는 차량 목록
+- PC 로딩 속도
+
+처음에는 반드시 `테스트` 탭으로 짧게 확인한 뒤 사용하세요.
+사용은 전적으로 사용자 본인 책임입니다.
+
+## 시작 전 준비
+
+1. 포르자 호라이즌 6을 오픈월드 상태로 둡니다.
+2. 이벤트랩 맵을 즐겨찾기해 둡니다.
+3. 작업차 `1998 SUBARU IMPREZA 22B-STI VERSION`을 즐겨찾기해 둡니다.
+4. 작업차 즐겨찾기는 가능하면 해당 1대만 남깁니다.
+5. 난이도 설정의 자동 보조를 최대한 켭니다.
+6. 구매 위치는 본인 화면에서 직접 확인합니다.
+
+Xbox/Game Pass 환경에서 공유코드 입력창에 가상 키보드가 뜨면 `맵 코드` 칸을 비워두세요.
+맵 코드가 비어 있으면 프로그램은 공유코드 입력창을 열지 않고, 게임 안의 `내 즐겨찾기` 이벤트랩 경로를 사용합니다.
+
+## 기본 조작
+
+- `F1`: 현재 선택된 탭 실행
+- `F2`: 일시 정지
+- `F3`: 종료
+
+`F1`은 확인창 없이 바로 실행합니다.
+누르기 전에 선택된 탭과 게임 화면 상태를 확인하세요.
+
+## 탭별 역할
+
+### 스바루런
+
+이미 이벤트랩 주행 화면에 들어가 있는 상태에서 스바루런만 반복하는 단독 탭입니다.
+오픈월드에서 이벤트랩으로 들어가거나 작업차를 고르는 기능은 이 탭에 없습니다.
+
+동작:
+
+1. `Enter`로 주행 시작
+2. `W`를 설정 시간만큼 누름
+3. `X`를 여러 번 눌러 종료/결과 처리
+4. `Enter` 후 결과 대기
+5. 설정 횟수만큼 반복
+
+주요 값:
+
+- `주행`: W를 누르는 시간
+- `결과`: 레이스 종료 후 결과 화면 대기
+- `런`: 반복 횟수
+- `로딩 대기`: 올인원/테스트에서 작업차 선택 후 실제 이벤트맵 로딩을 기다리는 시간
+
+`로딩 대기`는 이벤트랩 내부 메뉴 이동에는 쓰지 않습니다.
+내 즐겨찾기 진입, 맵 선택, 차량 선택창 진입 같은 메뉴 선택은 고정 3초 대기를 사용합니다.
+
+### 구매
+
+현재 구매할 차량 카드에 커서가 올라가 있는 상태에서 구매 입력만 반복하는 단독 탭입니다.
+오픈월드에서 구매 메뉴까지 찾아가는 기능은 올인원/테스트 경로에서 사용됩니다.
+
+주요 값:
+
+- `구매 횟수`: 구매할 차량 수
+- `제조사 이동횟수`: 제조사 화면에서 목표 제조사까지 이동할 방향키 횟수
+- `구매차 이동횟수`: 제조사 선택 후 목표 차량까지 이동할 방향키 횟수
+
+구매 위치는 사용자마다 달라질 수 있습니다.
+신규 차량 추가나 DLC 보유 여부 때문에 같은 설명을 따라도 위치가 다를 수 있으니 직접 확인하세요.
+
+### 슈퍼휠
+
+구매한 차량을 최근 추가됨 기준으로 선택하고, 자동차 마스터리 경로를 찍는 탭입니다.
+
+주요 값:
+
+- `강화`: 마스터리를 찍을 차량 수
+- `변경`: 차량 갈아타기 후 대기 시간
+- `삭제상한`: 올인원에서 삭제할 최대 차량 수
+
+프리셋:
+
+- `스바루작`: 스바루 기준 구매/강화/삭제 값
+- `라부엘토작`: 라부엘토 기준 구매/강화/삭제 값
+- `마즈다작`: 1974 MAZDA #123 MAD MIKE 808 WAGON 기준 47대 구매, 47대 강화, 46대 삭제
+
+마즈다작은 1대당 21포인트를 사용합니다.
+47대를 모두 강화하려면 987포인트가 필요합니다.
+포인트가 부족하면 강화 도중 경로가 꼬일 수 있으므로, 작업차를 제대로 타고 스바루런을 돌렸는지 확인하세요.
+
+### 삭제
+
+차량 목록에서 삭제 대상 차량을 반복 삭제하는 탭입니다.
+올인원에서는 현재 탑승 중인 1대를 남기기 위해 보통 구매/강화 수보다 1대 적게 삭제합니다.
+
+마즈다작 기준:
+
+- 47대 구매
+- 47대 강화
+- 46대 삭제
+
+삭제는 되돌리기 어렵습니다.
+단독 삭제 탭은 삭제 대상과 커서 위치를 확인한 뒤 사용하세요.
+
+### 테스트
+
+올인원과 같은 경로를 짧은 횟수로 검증하는 탭입니다.
+구매 위치, 이벤트랩 진입, 작업차 선택, 슈퍼휠, 삭제가 본인 환경에서 이어지는지 확인하는 용도입니다.
+
+- `최소런`: 가장 짧은 경로 확인
+- `권장런`: 올인원 전 권장 검증
+
+테스트가 실패하면 올인원을 돌리지 말고 실패 지점의 설정을 먼저 고치세요.
+
+### 올인원
+
+오픈월드에서 시작해 이벤트랩, 스바루런, 구매, 슈퍼휠, 삭제까지 이어가는 전체 자동화 탭입니다.
+
+흐름:
+
+1. 오픈월드에서 이벤트랩 메뉴로 이동
+2. 맵 코드가 비어 있으면 내 즐겨찾기 경로 사용
+3. 맵 코드가 있으면 공유코드 입력 경로 사용
+4. SUBARU 제조사 선택
+5. 1998 SUBARU 작업차 이미지 인식 후 선택
+6. 이벤트맵 로딩 대기
+7. 스바루런 반복
+8. 보정 주행 및 스킬 체인 정산 대기
+9. 오픈월드 복귀
+10. 구매 위치 이동 및 차량 구매
+11. 차량 목록으로 이동
+12. 최근 추가됨 기준으로 차량 탑승 및 마스터리 강화
+13. 삭제 루프
+14. 다음 회차가 있으면 이벤트랩 재진입
+15. 마지막 회차는 오픈월드에서 종료
+
+주요 값:
+
+- `보정 주행`: 정규 스바루런 뒤 추가로 W를 누르는 시간
+- `정산`: 스킬 체인이 포인트로 정산되기를 기다리는 시간
+- `맵 코드`: 비워두면 내 즐겨찾기, 숫자를 넣으면 공유코드 검색
+- `회차`: 올인원 전체 반복 횟수
+
+## 이벤트랩 진입 방식
+
+### 맵 코드가 비어 있는 경우
+
+권장 방식입니다.
+이벤트랩을 미리 즐겨찾기해 둔 뒤 `맵 코드` 칸을 비우면, 프로그램은 아래 흐름으로 들어갑니다.
+
+1. 이벤트랩 검색/찾기 화면 진입
+2. `PageDown` 7회
+3. `내 즐겨찾기` 선택
+4. `Enter`
+5. 3초 대기
+6. `Enter`
+7. 3초 대기
+8. 차량 선택 화면으로 진행
+
+### 맵 코드가 입력된 경우
+
+공유코드 입력창을 사용합니다.
+먼저 클립보드 붙여넣기를 시도하고, 입력값 검증이 실패하면 숫자 직접 입력으로 전환합니다.
+그래도 Game UI 가상 키보드 때문에 입력이 막히면 맵 코드를 비우고 즐겨찾기 방식을 사용하세요.
+
+## 작업차 이미지 인식
+
+작업차 선택값 `Pg`, `←`, `→`, `↑`, `↓`가 모두 0이면 이미지 자동 모드입니다.
+
+현재 방식:
+
+- 제조사 화면에서 SUBARU를 찾음
+- SUBARU가 이미 선택되어 있으면 이동 없이 선택 가능
+- 작업차 카드 이미지를 찾음
+- 키보드 `↑`/`↓`로 목표 카드까지 이동
+- 선택된 카드가 작업차인지 다시 검증
+- 검증 성공 시 `Enter`
+- 키보드 검증 실패 시에만 마우스 클릭을 백업으로 사용
+
+가장 안전한 세팅은 즐겨찾기에 기본 파란 1998 SUBARU 작업차 1대만 남기는 것입니다.
+
+## 자주 묻는 문제
+
+### 가상 키보드가 떠서 맵 코드 입력이 안 됨
+
+맵 코드를 비우고, 이벤트랩을 즐겨찾기에 넣어 사용하세요.
+
+### 제조사 검색에서 멈춘 것처럼 보임
+
+느린 PC에서 화면 전환 전에 입력이 들어간 경우일 수 있습니다.
+작업차 선택 후 이벤트맵 로딩에서 멈추면 `로딩 대기`를 30~45초로 늘려보세요.
+
+### 스킬포인트가 부족함
+
+작업차를 제대로 타고 있었는지 먼저 확인하세요.
+작업차가 아니면 포인트 수급이 크게 줄어듭니다.
+
+### 구매 차량이 다름
+
+제조사/구매차 이동횟수가 본인 화면과 맞지 않는 상태입니다.
+구매 위치는 반드시 직접 확인해야 합니다.
+
+### 삭제 대상이 꼬임
+
+중간에 새 차량이 섞였을 가능성이 큽니다.
+작업 중 슈퍼휠스핀을 직접 까거나 다른 신규 차량을 받지 마세요.
+
+## 패키지
+
+배포 ZIP은 Windows x64 self-contained 빌드입니다.
+별도 .NET Desktop Runtime 설치는 필요하지 않습니다.
