@@ -15,7 +15,7 @@ FH6 스바루런, 차량 구매, 자동차 마스터리, 삭제 루프를 보조
 최신 릴리즈:
 
 - [Single-file guide/icon/test preset build 2026-06-29](https://github.com/unmatched785/fh6-subaruu-release/releases/tag/singlefile-guide-icon-testpreset-20260629)
-- 파일: `subaruu-singlefile-guide-icon-testpreset-portable-win-x64-20260629.zip`
+- 파일: `subaruu.zip`
 - SHA256: `B902F6B9383DF695C203E9F3F70B240735EF30646FEB79FCC84CB0C11A965847`
 
 ZIP을 새 폴더에 풀고 `subaruu.exe`를 실행하세요.
