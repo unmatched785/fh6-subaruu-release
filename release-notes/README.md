@@ -3,6 +3,7 @@
 Historical release notes are kept here so the repository root stays focused on
 the current README and guide.
 
+- [2026-07-02 status snapshot and W-only Subaru run](RELEASE_NOTES_20260702_STATUS_WONLY.md)
 - [2026-07-01 purchase menu stabilize](RELEASE_NOTES_20260701_PURCHASE_MENU_STABILIZE.md)
 - [2026-06-30 purchase entry wait](RELEASE_NOTES_20260630_PURCHASE_ENTRY_WAIT.md)
 - [2026-06-30 auction start safety](RELEASE_NOTES_20260630_AUCTION_START_SAFETY.md)
