@@ -3,6 +3,7 @@
 Historical release notes are kept here so the repository root stays focused on
 the current README and guide.
 
+- [2026-07-04 auction start focus](RELEASE_NOTES_20260704_AUCTION_START_FOCUS.md)
 - [2026-07-03 EventLab code input and work-car detection](RELEASE_NOTES_20260703_EVENTLAB_CODE_WORKCAR.md)
 - [2026-07-02 status snapshot and W-only Subaru run](RELEASE_NOTES_20260702_STATUS_WONLY.md)
 - [2026-07-01 purchase menu stabilize](RELEASE_NOTES_20260701_PURCHASE_MENU_STABILIZE.md)
