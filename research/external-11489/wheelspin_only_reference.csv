@@ -1,0 +1,46 @@
+id,class,pi,manufacturer,car_name,category,country,source,notes
+1,R,916,Apollo,2019 Apollo Intensa Emozione,Extreme Track Toys,Germany,"Wheelspin, Seasonal",base
+2,S1,736,Aston Martin,2019 Aston Martin DBS Superleggera,Super GT,UK,"Wheelspin, Seasonal",base
+3,R,960,Aston Martin,2019 Aston Martin Valhalla Concept Car,Hypercars,UK,"Wheelspin, Seasonal",base
+4,B,526,Audi,1984 Audi Sport quattro,Retro Rally,Germany,"Wheelspin, Seasonal",base
+5,A,612,Bentley,2016 Bentley Bentayga,Sports Utility Heroes,UK,"Wheelspin, Seasonal",base
+6,A,656,BMW,2020 BMW M2 Competition Coupé,Modern Super Saloons,Germany,"Wheelspin, Seasonal",base
+7,A,641,Casey Currie Motorsports,2019 Casey Currie Motorsports #4402 Ultra 4 'Trophy Jeep',Unlimited Offroad,USA,"Wheelspin, Seasonal",base
+8,C,428,Chevrolet,1960 Chevrolet Corvette,Classic Sports Cars,USA,"Wheelspin, Seasonal",base
+9,S1,778,Chevrolet,2019 Chevrolet Corvette ZR1,Track Toys,USA,"Wheelspin, Seasonal",base
+10,C,443,Dodge,1970 Dodge Challenger R/T,Classic Muscle,USA,"Wheelspin, Seasonal",base
+11,B,540,Dodge,1968 Dodge Dart HEMI Super Stock,Classic Muscle,USA,"Wheelspin, Seasonal",base
+12,S1,786,Dodge,2016 Dodge Viper ACR,Track Toys,USA,"Wheelspin, Seasonal",base
+13,A,643,Ferrari,1984 Ferrari 288 GTO,Retro Supercars,Italy,"Wheelspin, Seasonal",base
+14,A,615,Ferrari,1992 Ferrari 512 TR,Retro Supercars,Italy,"Wheelspin, Seasonal",base
+15,S2,894,Ferrari,2012 Ferrari 599XX Evolution,Extreme Track Toys,Italy,"Wheelspin, Seasonal",base
+16,S2,802,Ferrari,2019 Ferrari F8 Tributo,Modern Supercars,Italy,"Wheelspin, Seasonal",base
+17,B,588,Ferrari,1994 Ferrari F355 Berlinetta,Retro Supercars,Italy,"Wheelspin, Seasonal",base
+18,C,500,Ford,2022 Ford F-150 Lightning,Pickups & 4x4's,USA,"Wheelspin, Seasonal",base
+19,S2,850,Ford,1986 Ford F-150 XLT Lariat Forza Edition,Drift Cars,USA,"Wheelspin, Seasonal",base
+20,S1,707,Ford,2017 Ford M-Sport Fiesta RS,Rally Monsters,USA,"Wheelspin, Seasonal",base
+21,A,700,Ford,1968 Ford Mustang GT 2+2 Fastback Forza Edition,Drift Cars,USA,"Wheelspin, Seasonal",base
+22,B,530,Ford,2014 Ford Ranger T6 Rally Raid,Offroad,USA,"Wheelspin, Seasonal",base
+23,A,700,Ford,2020 Ford Super Duty F-450 DRW PLATINUM Forza Edition,Pickups & 4x4's,USA,"Wheelspin, Seasonal",base
+24,S1,739,Formula Drift,2015 Formula Drift #13 Ford Mustang,Drift Cars,USA,"Wheelspin, Seasonal",base
+25,S1,748,Formula Drift,2006 Formula Drift #43 Dodge Viper SRT-10 ACR,Drift Cars,USA,"Wheelspin, Seasonal",base
+26,S2,845,Hennessey,2012 Hennessey Venom GT,Hypercars,USA,"Wheelspin, Seasonal",base
+27,C,414,Jaguar,1961 Jaguar E-type,Rare Classics,UK,"Wheelspin, Seasonal",base
+28,S2,890,Koenigsegg,2015 Koenigsegg One:1,Hypercars,Sweden,"Wheelspin, Seasonal",base
+29,S1,753,Lamborghini,2012 Lamborghini Aventador LP700-4,Hypercars,Italy,"Wheelspin, Seasonal",base
+30,S2,823,Lamborghini,1999 Lamborghini Diablo GTR,Extreme Track Toys,Italy,"Wheelspin, Seasonal",base
+31,S2,871,Lamborghini,2011 Lamborghini Sesto Elemento,Extreme Track Toys,Italy,"Wheelspin, Seasonal",base
+32,S1,773,McLaren,2021 McLaren 620R,Track Toys,UK,"Wheelspin, Seasonal",base
+33,A,664,Mercedes-AMG,2018 Mercedes-AMG GT 4-Door Coupé,Modern Super Saloons,Germany,"Wheelspin, Seasonal",base
+34,A,700,Mercedes-Benz,1990 Mercedes-Benz 190 E 2.5-16 Evolution II Forza Edition,Track Toys,Germany,"Wheelspin, Seasonal",base
+35,S1,713,Mercedes-Benz,1998 Mercedes-Benz AMG CLK GTR,Retro Supercars,Germany,"Wheelspin, Seasonal",base
+36,C,489,Mercedes-Benz,2014 Mercedes-Benz G 63 AMG 6x6,Pickups & 4x4's,Germany,"Wheelspin, Seasonal",base
+37,D,339,Nissan,1993 Nissan 240SX,Retro Sports Cars,Japan,"Wheelspin, Seasonal",base
+38,S2,850,Nissan,2012 Nissan GT-R Black Edition (R35) Forza Edition,Extreme Track Toys,Japan,"Wheelspin, Seasonal",base
+39,S1,800,Nissan,1989 Nissan S-Cargo Forza Edition,Track Toys,Japan,"Wheelspin, Seasonal",base
+40,R,998,Porsche,1970 Porsche #3 917 LH Forza Edition,Extreme Track Toys,Germany,"Wheelspin, Seasonal",base
+41,A,644,Porsche,1995 Porsche 911 GT2,Retro Supercars,Germany,"Wheelspin, Seasonal",base
+42,S1,760,Porsche,2019 Porsche 911 GT3 RS,Track Toys,Germany,"Wheelspin, Seasonal",base
+43,R,913,Rimac,2021 Rimac Nevera,Hypercars,Croatia,"Wheelspin, Seasonal",base
+44,A,677,RJ Anderson,2021 RJ Anderson #37 Polaris RZR Pro 4 Truck,Unlimited Offroad,USA,"Wheelspin, Seasonal",base
+45,S1,800,Wuling,2013 Wuling Sunshine S Forza Edition,Track Toys,China,"Wheelspin, Seasonal",base
