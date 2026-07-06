@@ -23,6 +23,9 @@ All Clothes / Horns / Emotes 획득 후 기록
 
 | 파일 | 내용 |
 | --- | --- |
+| `ANALYSIS.md` | 외부 11,489-slot 표본 최종 해석 문서 |
+| `validation_report.md` | 검증 스크립트 실행 결과 요약 |
+| `validate_external_11489.py` | CSV 합계 검증 스크립트 |
 | `summary.csv` | 전체 슬롯, CR/차량 보상 총량, 평균값 요약 |
 | `cr_prizes.csv` | CR 보상 금액별 분포 |
 | `car_rarity_summary.csv` | 차량 보상 희귀도별 분포 |
@@ -40,6 +43,7 @@ All Clothes / Horns / Emotes 획득 후 기록
 | `wheelspin_only_external_match.csv` | 기준 목록 45종을 외부 11,489 슬롯 표본에 매칭한 결과 |
 | `wheelspin_exclusive_summary_reference.csv` | 기준 목록 기반 WX 요약값 |
 | `wheelspin_exclusive_summary_draft.csv` | 이미지의 WS 컬럼을 직접 읽은 초기 초안. reference 파일이 우선 |
+| `name_aliases.csv` | 이름 정규화/별칭 메모 |
 | `ws_xcl_interpretation.md` | WS / Xcl 해석 메모 |
 | `vehicle_level_schema.md` | 차량별 CSV로 전사할 때 사용할 스키마와 주의점 |
 
@@ -78,6 +82,10 @@ WX 기준 목록 매칭 결과:
 WX reference vehicles = 45 rows
 Matched external sample WX qty = 336
 Matched external sample WX sell value = 117,100,000 CR
+WX_non_FE qty = 154
+WX_non_FE sell value = 57,975,000 CR
+FE qty = 182
+FE sell value = 59,125,000 CR
 WX share of all car prizes = 336 / 2740 = 12.26%
 WX share of all slots = 336 / 11489 = 2.92%
 ```
