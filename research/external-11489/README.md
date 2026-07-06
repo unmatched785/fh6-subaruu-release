@@ -33,24 +33,38 @@ All Clothes / Horns / Emotes 획득 후 기록
 | `rare_vehicles_validation.md` | Rare 차량 전사 합계 검증 메모 |
 | `epic_vehicles_draft.csv` | Epic 차량 120행 수동 전사 초안 |
 | `epic_vehicles_validation.md` | Epic 차량 전사 합계 검증 메모 |
+| `legendary_vehicles_draft.csv` | Legendary 차량 70행 수동 전사 초안 |
+| `forza_edition_vehicles_draft.csv` | FE 차량 8행 수동 전사 초안 |
+| `legendary_fe_vehicles_validation.md` | Legendary/FE 차량 전사 합계 검증 메모 |
+| `wheelspin_exclusive_summary_draft.csv` | 현재 구조화된 WS 차량 요약 초안 |
 | `vehicle_level_schema.md` | 차량별 CSV로 전사할 때 사용할 스키마와 주의점 |
 
 ## Current status
 
-현재 구조화 완료된 값은 이미지의 상단 집계표, CR 보상표, 희귀도별 차량 요약, Common/Rare/Epic 차량 상세 목록입니다.
+현재 구조화 완료된 값은 이미지의 상단 집계표, CR 보상표, 희귀도별 차량 요약, Common/Rare/Epic/Legendary/FE 차량 상세 목록입니다.
 
-Common 차량 상세 전사는 수량/판매가/총액 합계 검증을 통과했습니다.
-Rare 차량 상세 전사도 수량/판매가/총액 합계 검증을 통과했습니다.
-Epic 차량 상세 전사도 수량/판매가/총액 합계 검증을 통과했습니다.
+차량명, 수량, 즉시판매가, 즉시판매 총액은 모든 희귀도에서 합계 검증을 통과했습니다.
 다만 `WS / Xcl?` 컬럼은 원본 이미지와 제공 텍스트의 정렬이 완전하지 않은 구간이 있으므로 아직 최종 검증값은 아닙니다.
 
-차량별 전사는 아래 순서로 진행합니다.
+차량별 전사 상태:
 
 ```text
 1. Common 차량 목록: 전사 완료, 합계 검증 완료, WS/Xcl 미검증
 2. Rare 차량 목록: 전사 완료, 합계 검증 완료, WS/Xcl 미검증
 3. Epic 차량 목록: 전사 완료, 합계 검증 완료, WS 일부 시각 검증, Xcl 미검증
-4. Legendary + FE 차량 목록
+4. Legendary 차량 목록: 전사 완료, 합계 검증 완료, WS 시각 검증, Xcl 미검증
+5. FE 차량 목록: 전사 완료, 합계 검증 완료, WS 시각 검증, Xcl 미검증
+```
+
+전체 차량 전사 합계:
+
+```text
+Common qty = 1,099 / value = 27,771,500 CR
+Rare qty = 730 / value = 37,341,500 CR
+Epic qty = 547 / value = 68,214,250 CR
+Legendary qty = 182 / value = 434,971,000 CR
+FE qty = 182 / value = 59,125,000 CR
+Total car qty = 2,740 / value = 627,423,250 CR
 ```
 
 ## Use in research
