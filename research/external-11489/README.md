@@ -27,13 +27,25 @@ All Clothes / Horns / Emotes 획득 후 기록
 | `cr_prizes.csv` | CR 보상 금액별 분포 |
 | `car_rarity_summary.csv` | 차량 보상 희귀도별 분포 |
 | `derived_metrics.csv` | Legendary/FE 비율, 가치 비중 등 계산값 |
+| `common_vehicles_draft.csv` | Common 차량 90행 수동 전사 초안 |
+| `common_vehicles_validation.md` | Common 차량 전사 합계 검증 메모 |
 | `vehicle_level_schema.md` | 차량별 CSV로 전사할 때 사용할 스키마와 주의점 |
 
 ## Current status
 
-현재 구조화 완료된 값은 이미지의 상단 집계표와 요약 수치입니다.
-차량별 전체 행은 아직 CSV로 전사하지 않았습니다.
-차량별 표는 이미지 해상도와 글자 크기 때문에 자동 전사 오류 가능성이 높으므로, 별도 수동 검증이 필요합니다.
+현재 구조화 완료된 값은 이미지의 상단 집계표, CR 보상표, 희귀도별 차량 요약, Common 차량 상세 목록입니다.
+
+Common 차량 상세 전사는 수량/판매가/총액 합계 검증을 통과했습니다.
+다만 `WS / Xcl?` 컬럼은 원본 이미지와 제공 텍스트의 정렬이 완전하지 않으므로 아직 완전 검증값이 아닙니다.
+
+차량별 전사는 아래 순서로 진행합니다.
+
+```text
+1. Common 차량 목록: 전사 완료, 합계 검증 완료, WS/Xcl 미검증
+2. Rare 차량 목록
+3. Epic 차량 목록
+4. Legendary + FE 차량 목록
+```
 
 ## Use in research
 
@@ -45,6 +57,7 @@ All Clothes / Horns / Emotes 획득 후 기록
 3. CR 보상 / 차량 보상 비율 확인
 4. 차량 보상 가치가 전체 기대값에 미치는 영향 확인
 5. Legendary/FE를 팔 때와 보유할 때의 평균값 차이 확인
+6. 차량별 표가 완성되면 Wheelspin Exclusive 전체 드랍률 계산
 ```
 
 이 표본으로 바로 하면 안 되는 것:
