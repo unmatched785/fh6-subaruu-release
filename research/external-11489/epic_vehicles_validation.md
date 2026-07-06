@@ -32,6 +32,13 @@
 `qty`, `sell_for_cr`, `total_sell_value_cr`는 합계 검증이 완료되었습니다.
 
 Epic 구간은 원본 이미지에서 주황색 `yes`가 비교적 잘 보이므로, 명확하게 보이는 WS 차량은 `ws_exclusive=yes`로 반영했습니다.
+추가 스크린샷 검증으로 아래를 보정했습니다.
+
+```text
+1973 Nissan Skyline H/T 2000GT-R = no
+1993 Nissan 240SX = yes
+```
+
 다만 `Xcl?` 또는 Car Mastery bonus car 관련 표시는 아직 구조화하지 않았으므로 `xcl=unknown`으로 둡니다.
 
 현재 전사 기준 Epic WS 차량은 아래와 같습니다.
@@ -39,16 +46,16 @@ Epic 구간은 원본 이미지에서 주황색 `yes`가 비교적 잘 보이므
 | 항목 | 값 |
 | --- | ---: |
 | WS 차량 행 수 | 26 |
-| WS 차량 획득 수량 | 120 |
-| WS 차량 즉시판매 총합 | 20,666,500 CR |
-| Epic 전체 수량 중 WS 비중 | 21.94% |
-| Epic 전체 가치 중 WS 비중 | 30.30% |
+| WS 차량 획득 수량 | 123 |
+| WS 차량 즉시판매 총합 | 20,792,500 CR |
+| Epic 전체 수량 중 WS 비중 | 22.49% |
+| Epic 전체 가치 중 WS 비중 | 30.48% |
 
 계산:
 
 ```text
-WS qty share = 120 / 547 = 21.94%
-WS value share = 20,666,500 / 68,214,250 = 30.30%
+WS qty share = 123 / 547 = 22.49%
+WS value share = 20,792,500 / 68,214,250 = 30.48%
 ```
 
 ## Current status
@@ -61,15 +68,4 @@ verified=false
 
 ## Next step
 
-다음 전사 대상은 Legendary + FE 차량 목록입니다.
-Legendary / FE 요약 기준은 아래와 같습니다.
-
-```text
-Legendary qty = 182
-Legendary total sell value = 434,971,000 CR
-Legendary avg sell value = 2,389,951 CR
-
-FE qty = 182
-FE total sell value = 59,125,000 CR
-FE avg sell value = 324,863 CR
-```
+`Xcl?` 및 Car Mastery 관련 열을 별도 컬럼으로 구조화하려면 원본 표의 색상/열 위치를 추가로 분리해야 합니다.
