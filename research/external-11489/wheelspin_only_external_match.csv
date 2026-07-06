@@ -1,0 +1,46 @@
+id,manufacturer,car_name,external_rarity,external_qty,external_sell_for_cr,external_total_sell_value_cr,matched_notes
+1,Apollo,2019 Apollo Intensa Emozione,Legendary,5,1600000,8000000,matched
+2,Aston Martin,2019 Aston Martin DBS Superleggera,Epic,5,137500,687500,matched
+3,Aston Martin,2019 Aston Martin Valhalla Concept Car,Legendary,1,575000,575000,matched
+4,Audi,1984 Audi Sport quattro,Epic,6,325000,1950000,matched
+5,Bentley,2016 Bentley Bentayga,Epic,8,125000,1000000,matched
+6,BMW,2020 BMW M2 Competition Coupe,Epic,5,125000,625000,matched
+7,Casey Currie Motorsports,2019 Casey Currie Motorsports #4402 Ultra 4 Trophy Jeep,Epic,6,125000,750000,matched
+8,Chevrolet,1960 Chevrolet Corvette,Epic,3,125000,375000,matched
+9,Chevrolet,2019 Chevrolet Corvette ZR1,Epic,6,125000,750000,matched
+10,Dodge,1970 Dodge Challenger R/T,Epic,4,262500,1050000,matched
+11,Dodge,1968 Dodge Dart HEMI Super Stock,Legendary,1,150000,150000,matched
+12,Dodge,2016 Dodge Viper ACR,Epic,6,145000,870000,matched
+13,Ferrari,1984 Ferrari 288 GTO,Legendary,2,1400000,2800000,matched
+14,Ferrari,1992 Ferrari 512 TR,Epic,2,175000,350000,matched
+15,Ferrari,2012 Ferrari 599XX Evolution,Legendary,7,1600000,11200000,matched
+16,Ferrari,2019 Ferrari F8 Tributo,Legendary,5,166500,832500,matched
+17,Ferrari,1994 Ferrari F355 Berlinetta,Epic,2,125000,250000,matched
+18,Ford,2022 Ford F-150 Lightning,Epic,4,125000,500000,matched
+19,Ford,1986 Ford F-150 XLT Lariat Forza Edition,Forza Edition,25,250000,6250000,matched
+20,Ford,2017 Ford M-Sport Fiesta RS,Epic,5,125000,625000,matched
+21,Ford,1968 Ford Mustang GT 2+2 Fastback Forza Edition,Forza Edition,24,250000,6000000,matched
+22,Ford,2014 Ford Ranger T6 Rally Raid,Epic,2,175000,350000,matched
+23,Ford,2020 Ford Super Duty F-450 DRW Platinum Forza Edition,Forza Edition,18,250000,4500000,matched
+24,Formula Drift,2015 Formula Drift #13 Ford Mustang,Epic,4,125000,500000,matched
+25,Formula Drift,2006 Formula Drift #43 Dodge Viper SRT-10 ACR,Epic,1,125000,125000,matched
+26,Hennessey,2012 Hennessey Venom GT,Legendary,1,700000,700000,matched
+27,Jaguar,1961 Jaguar E-Type,Epic,8,125000,1000000,matched
+28,Koenigsegg,2015 Koenigsegg One:1,Legendary,2,1875000,3750000,matched
+29,Lamborghini,2012 Lamborghini Aventador LP700-4,Epic,2,172500,345000,matched
+30,Lamborghini,1999 Lamborghini Diablo GTR,Epic,5,340000,1700000,matched
+31,Lamborghini,2011 Lamborghini Sesto Elemento,Legendary,5,1250000,6250000,matched
+32,McLaren,2021 McLaren 620R,Epic,9,130000,1170000,matched
+33,Mercedes-AMG,2018 Mercedes-AMG GT 4-Door Coupe,Epic,6,125000,750000,matched
+34,Mercedes-Benz,1990 Mercedes-Benz 190 E 2.5-16 Evolution II Forza Edition,Forza Edition,26,375000,9750000,matched
+35,Mercedes-Benz,1998 Mercedes-Benz AMG CLK GTR,Legendary,1,1800000,1800000,matched
+36,Mercedes-Benz,2014 Mercedes-Benz G 63 AMG 6x6,Epic,3,390000,1170000,matched
+37,Nissan,1993 Nissan 240SX,Epic,6,125000,750000,matched
+38,Nissan,2012 Nissan GT-R Black Edition (R35) Forza Edition,Forza Edition,20,375000,7500000,matched
+39,Nissan,1989 Nissan S-Cargo Forza Edition,Forza Edition,20,250000,5000000,matched
+40,Porsche,1970 Porsche #3 917 LH Forza Edition,Forza Edition,21,625000,13125000,matched
+41,Porsche,1995 Porsche 911 GT2,Epic,3,550000,1650000,matched
+42,Porsche,2019 Porsche 911 GT3 RS,Epic,8,125000,1000000,matched
+43,Rimac,2021 Rimac Nevera,Legendary,1,1125000,1125000,matched
+44,RJ Anderson,2021 RJ Anderson #37 Polaris RZR Pro 4 Truck,Epic,4,125000,500000,matched
+45,Wuling,2020 Wuling Sunshine S Forza Edition,Forza Edition,28,250000,7000000,matched_name_differs_from_reference_year_2013
