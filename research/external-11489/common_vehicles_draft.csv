@@ -1,0 +1,91 @@
+row_id,source_image,rarity,car_name,ws_exclusive,xcl,rate_of_rarity_percent,qty,sell_for_cr,total_sell_value_cr,verified,notes
+1,통계2.webp,Common,1968 Abarth 595 esseesse,no,unknown,1.3,14,12500,175000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+2,통계2.webp,Common,1980 Abarth Fiat 131,no,unknown,1.2,13,62500,812500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+3,통계2.webp,Common,2001 Acura Integra Type R,no,unknown,0.9,10,32500,325000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+4,통계2.webp,Common,2002 Acura RSX Type S,no,unknown,1.0,11,9000,99000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+5,통계2.webp,Common,2001 Audi RS4 Avant,no,unknown,0.9,10,87500,875000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+6,통계2.webp,Common,2011 Audi RS3 Sportback,no,unknown,0.7,8,10000,80000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+7,통계2.webp,Common,2015 Audi S1,no,unknown,1.5,16,10500,168000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+8,통계2.webp,Common,1965 Austin-Healey 3000 MKIII,no,unknown,0.8,9,37500,337500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+9,통계2.webp,Common,1957 BMW Isetta 300 Export,no,unknown,1.1,12,42000,504000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+10,통계2.webp,Common,1997 BMW M3,no,unknown,1.1,12,15000,180000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+11,통계2.webp,Common,2003 BMW M5,no,unknown,0.9,10,23500,235000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+12,통계2.webp,Common,2005 BMW M3,no,unknown,1.3,14,17500,245000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+13,통계2.webp,Common,2008 BMW M3,no,unknown,0.9,10,21500,215000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+14,통계2.webp,Common,2011 BMW X5 M,no,unknown,0.5,6,12000,72000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+15,통계2.webp,Common,2019 BMW Z4 Roadster,no,unknown,1.2,13,19000,247000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+16,통계2.webp,Common,2016 Cadillac ATS-V,no,unknown,1.2,13,20500,266500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+17,통계2.webp,Common,2016 Cadillac CTS-V Sedan,no,unknown,0.8,9,30000,270000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+18,통계2.webp,Common,2018 Can-Am Maverick XRS Turbo R,no,unknown,1.6,18,8000,144000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+19,통계2.webp,Common,1955 Chevrolet 150 Utility Sedan,no,unknown,1.4,15,70000,1050000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+20,통계2.webp,Common,1964 Chevrolet Impala Super Sport 409,no,unknown,1.1,12,35000,420000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+21,통계2.webp,Common,1969 Chevrolet Nova Super Sport 396,no,unknown,0.9,10,20000,200000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+22,통계2.webp,Common,1972 Chevrolet K-10 Custom,no,unknown,0.6,7,24500,171500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+23,통계2.webp,Common,1988 Chevrolet Monte Carlo Super Sport,no,unknown,1.4,15,15000,225000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+24,통계2.webp,Common,1995 Chevrolet Corvette ZR-1,no,unknown,0.7,8,38000,304000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+25,통계2.webp,Common,1996 Chevrolet Impala Super Sport,no,unknown,1.3,14,15000,210000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+26,통계2.webp,Common,2002 Chevrolet Corvette Z06,no,unknown,1.1,12,16500,198000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+27,통계2.webp,Common,1970 Datsun 510,no,unknown,0.4,4,43000,172000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+28,통계2.webp,Common,2019 DeBerti Toyota Tacoma TRD 'The Performance Truck',no,unknown,1.8,20,125000,2500000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+29,통계2.webp,Common,1932 Ford De Luxe Five-Window Coupe,no,unknown,1.4,15,18000,270000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+30,통계2.webp,Common,1986 Ford F-150 XLT Lariat,no,unknown,1.4,15,22500,337500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+31,통계2.webp,Common,1993 Ford Mustang SVT Cobra R,no,unknown,1.7,19,42000,798000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+32,통계2.webp,Common,2000 Ford Mustang SVT Cobra R,no,unknown,1.7,19,76500,1453500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+33,통계2.webp,Common,2003 Ford Focus RS,no,unknown,1.2,13,17500,227500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+34,통계2.webp,Common,2010 Ford Crown Victoria Police Interceptor,no,unknown,1.0,11,7500,82500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+35,통계2.webp,Common,2014 Ford FPV Limited Edition Pursuit Ute,no,unknown,1.0,11,20000,220000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+36,통계2.webp,Common,2020 Ford Super Duty F-450 DRW Platinum,no,unknown,0.9,10,32500,325000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+37,통계2.webp,Common,2022 Ford Focus ST,no,unknown,0.6,7,17000,119000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+38,통계2.webp,Common,2023 Ford Fiesta ST,no,unknown,1.0,11,13000,143000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+39,통계2.webp,Common,1970 Honda S800,no,unknown,0.7,8,20000,160000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+40,통계2.webp,Common,1994 Honda ACTY,no,unknown,1.1,12,4500,54000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+41,통계2.webp,Common,1994 Honda Prelude Si,no,unknown,1.3,14,7500,105000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+42,통계2.webp,Common,1997 Honda Civic Type R,no,unknown,1.1,12,15000,180000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+43,통계2.webp,Common,2003 Honda S2000,no,unknown,1.5,16,27500,440000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+44,통계2.webp,Common,2004 Honda Civic Type R,no,unknown,1.0,11,7500,82500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+45,통계2.webp,Common,2007 Honda Civic Type R,no,unknown,1.5,16,8500,136000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+46,통계2.webp,Common,2015 Honda Civic Type R,no,unknown,1.0,11,15000,165000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+47,통계2.webp,Common,2022 Honda e,no,unknown,1.1,12,15000,180000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+48,통계2.webp,Common,2014 HSV Limited Edition Gen-F GTS Maloo,no,unknown,0.8,9,32500,292500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+49,통계2.webp,Common,2012 Jeep Wrangler Rubicon,no,unknown,0.9,10,8000,80000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+50,통계2.webp,Common,2018 Jeep Grand Cherokee Trackhawk,no,unknown,1.0,11,36000,396000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+51,통계2.webp,Common,2020 Jeep JT,no,unknown,1.0,11,18000,198000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+52,통계2.webp,Common,1992 Lancia Delta HF Integrale EVO,no,unknown,1.5,16,55000,880000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+53,통계2.webp,Common,1999 Lotus Elise Series 1 Sport 190,no,unknown,0.4,4,23500,94000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+54,통계2.webp,Common,1973 Mazda RX-3,no,unknown,0.7,8,36500,292000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+55,통계2.webp,Common,1994 Mazda MX-5 Miata,no,unknown,0.6,7,7500,52500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+56,통계2.webp,Common,2005 Mazda Mazdaspeed MX-5,no,unknown,1.1,12,10500,126000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+57,통계2.webp,Common,2010 Mazda Mazdaspeed 3,no,unknown,1.3,14,12500,175000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+58,통계2.webp,Common,2013 Mazda MX-5,no,unknown,1.1,12,14000,168000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+59,통계2.webp,Common,1987 Mercedes-Benz AMG Hammer Coupe,no,unknown,1.7,19,112500,2137500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+60,통계2.webp,Common,2018 Mercedes-Benz X-Class,no,unknown,0.9,10,25000,250000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+61,통계2.webp,Common,1995 Mitsubishi Eclipse GSX,no,unknown,0.9,10,17500,175000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+62,통계2.webp,Common,1997 Mitsubishi GTO,no,unknown,0.6,7,10000,70000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+63,통계2.webp,Common,1994 Nissan Silvia K's,no,unknown,1.2,13,10000,130000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+64,통계2.webp,Common,1998 Nissan Silvia K's Aero,no,unknown,0.9,10,11000,110000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+65,통계2.webp,Common,2002 Nissan Silvia Spec-R,no,unknown,1.4,15,22000,330000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+66,통계2.webp,Common,2003 Nissan Fairlady Z,no,unknown,0.9,10,9000,90000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+67,통계2.webp,Common,1987 Pontiac Firebird Trans Am GTA,no,unknown,1.1,12,12500,150000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+68,통계2.webp,Common,2020 Porsche Taycan Turbo S,no,unknown,1.3,14,100000,1400000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+69,통계2.webp,Common,1972 Reliant Supervan III,no,unknown,1.4,15,19500,292500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+70,통계2.webp,Common,1993 Renault Clio Williams,no,unknown,1.5,16,15000,240000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+71,통계2.webp,Common,2010 Renault Megane RS 250,no,unknown,1.4,15,7000,105000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+72,통계2.webp,Common,1980 Subaru Brat GL,no,unknown,1.0,11,10000,110000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+73,통계2.webp,Common,1990 Subaru Legacy RS,no,unknown,1.9,21,7500,157500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+74,통계2.webp,Common,1996 Subaru SVX,no,unknown,1.3,14,6500,91000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+75,통계2.webp,Common,2004 Subaru Impreza WRX STI,no,unknown,1.3,14,15000,210000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+76,통계2.webp,Common,2005 Subaru Impreza WRX STI,no,unknown,1.2,13,17500,227500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+77,통계2.webp,Common,2005 Subaru Legacy B4 2.0 GT,no,unknown,1.5,17,5000,85000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+78,통계2.webp,Common,2013 Subaru BRZ,no,unknown,1.1,12,12500,150000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+79,통계2.webp,Common,2015 Subaru WRX STI,no,unknown,1.5,16,13500,216000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+80,통계2.webp,Common,1979 Toyota FJ40,no,unknown,1.2,13,51500,669500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+81,통계2.webp,Common,1994 Toyota Celica GT-Four ST205,no,unknown,0.1,1,13500,13500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+82,통계2.webp,Common,2005 Toyota Crown Super Deluxe Taxi,no,unknown,1.2,13,5000,65000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+83,통계2.webp,Common,2017 Toyota JPN Taxi,no,unknown,1.9,21,12500,262500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+84,통계2.webp,Common,2022 Toyota GR86,no,unknown,0.3,3,14000,42000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+85,통계2.webp,Common,1983 Volkswagen Golf GTI,no,unknown,1.5,16,9000,144000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+86,통계2.webp,Common,1992 Volkswagen Golf GTI 16v Mk2,no,unknown,1.3,14,11000,154000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+87,통계2.webp,Common,1995 Volkswagen Corrado VR6,no,unknown,1.1,12,15000,180000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+88,통계2.webp,Common,2014 Volkswagen Golf R,no,unknown,0.7,8,13500,108000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+89,통계2.webp,Common,2021 Volkswagen Golf R,no,unknown,1.4,15,14500,217500,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
+90,통계2.webp,Common,1983 Volvo 242 Turbo Evolution,no,unknown,1.5,17,15000,255000,false,manual_transcription_from_user_paste; qty_sell_total_checked; ws_xcl_not_fully_verified
