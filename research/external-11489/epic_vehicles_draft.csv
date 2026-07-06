@@ -14,7 +14,7 @@ row_id,source_image,rarity,car_name,ws_exclusive,xcl,rate_of_rarity_percent,qty,
 13,통계4.webp,Epic,2016 Bentley Bentayga,yes,unknown,1.5,8,125000,1000000,false
 14,통계4.webp,Epic,2010 BMW M3 GTS,no,unknown,0.9,5,99000,495000,false
 15,통계4.webp,Epic,2016 BMW M4 GTS,no,unknown,0.7,4,62500,250000,false
-16,통계4.webp,Epic,2020 BMW M2 Competition Coupe,yes,unknown,0.9,5,125000,625000,false
+16,통계4.webp,Epic,2020 BMW M2 Competition Coupé,yes,unknown,0.9,5,125000,625000,false
 17,통계4.webp,Epic,2024 BMW X6 M Competition,no,unknown,0.5,3,70000,210000,false
 18,통계4.webp,Epic,2019 Casey Currie Motorsports #4402 Ultra 4 Trophy Jeep,yes,unknown,1.1,6,125000,750000,false
 19,통계4.webp,Epic,1960 Chevrolet Corvette,yes,unknown,0.5,3,125000,375000,false
@@ -65,7 +65,7 @@ row_id,source_image,rarity,car_name,ws_exclusive,xcl,rate_of_rarity_percent,qty,
 64,통계4.webp,Epic,1992 Honda NSX-R,no,unknown,1.3,7,225000,1575000,false
 65,통계4.webp,Epic,2015 Honda Ridgeline Baja Trophy Truck,no,unknown,0.5,3,200000,600000,false
 66,통계4.webp,Epic,2019 Hyundai Veloster N,no,unknown,0.7,4,10000,40000,false
-67,통계4.webp,Epic,1961 Jaguar E-Type,yes,unknown,1.5,8,125000,1000000,false
+67,통계4.webp,Epic,1961 Jaguar E-type,yes,unknown,1.5,8,125000,1000000,false
 68,통계4.webp,Epic,2019 Jimco #240 Fastball Racing Class 6100 Spec Trophy Truck,no,unknown,1.3,7,175000,1225000,false
 69,통계4.webp,Epic,2018 KTM X-Bow GT4,no,unknown,0.9,5,45000,225000,false
 70,통계4.webp,Epic,1999 Lamborghini Diablo GTR,yes,unknown,0.9,5,340000,1700000,false
@@ -91,8 +91,8 @@ row_id,source_image,rarity,car_name,ws_exclusive,xcl,rate_of_rarity_percent,qty,
 90,통계4.webp,Epic,2023 Meyers Manx 2.0,no,unknown,1.1,6,37000,222000,false
 91,통계4.webp,Epic,2013 MINI X-Raid All4 Racing Countryman,no,unknown,1.5,8,110000,880000,false
 92,통계4.webp,Epic,1969 Nissan Fairlady Z432,no,unknown,0.4,2,125000,250000,false
-93,통계4.webp,Epic,1973 Nissan Skyline H/T 2000GT-R,yes,unknown,0.5,3,208000,624000,false
-94,통계4.webp,Epic,1993 Nissan 240SX,no,unknown,1.1,6,125000,750000,false
+93,통계4.webp,Epic,1973 Nissan Skyline H/T 2000GT-R,no,unknown,0.5,3,208000,624000,false
+94,통계4.webp,Epic,1993 Nissan 240SX,yes,unknown,1.1,6,125000,750000,false
 95,통계4.webp,Epic,1997 Nissan Stagea RS Four V,no,unknown,1.1,6,10000,60000,false
 96,통계4.webp,Epic,2020 Nissan GT-R NISMO (R35),no,unknown,0.5,3,135000,405000,false
 97,통계4.webp,Epic,2024 Nissan Z NISMO,no,unknown,0.4,2,30000,60000,false
