@@ -1,0 +1,18 @@
+metric,value,unit,notes
+total_slots,11489,slots,Super Wheelspin counted as 3 slots
+cr_prize_slots,8749,slots,
+car_prize_slots,2740,slots,
+cr_prize_rate,76.2,percent_of_all_slots,
+car_prize_rate,23.8,percent_of_all_slots,
+total_cr_prize_value,457147000,CR,
+total_car_prize_value,627423250,CR,dupe instant-sell value basis in source
+total_value_all_sold,1084570250,CR,CR prizes plus car sell values
+avg_per_spin_all_sold,94401,CR_per_slot,source Avg Per Spin
+avg_per_spin_keep_legendary_fe,51395,CR_per_slot,source Avg Per Spin -Lngd/FE
+avg_per_spin_cr_only,39790,CR_per_slot,source Avg Per Spin CR only
+legendary_car_qty,182,cars,
+forza_edition_car_qty,182,cars,
+legendary_plus_fe_qty,364,cars,
+legendary_car_rate_all_slots,1.584,percent_of_all_slots,182 / 11489
+forza_edition_rate_all_slots,1.584,percent_of_all_slots,182 / 11489
+legendary_plus_fe_rate_all_slots,3.168,percent_of_all_slots,364 / 11489
