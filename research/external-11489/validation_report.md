@@ -20,10 +20,10 @@ python research/external-11489/validate_external_11489.py
 PASS external 11,489 validation
 car_qty=2,740
 car_value=627,423,250
-wx_qty=336
-wx_value=117,100,000
-wx_non_fe_qty=154
-wx_non_fe_value=57,975,000
+wx_qty=339
+wx_value=117,475,000
+wx_non_fe_qty=157
+wx_non_fe_value=58,350,000
 ```
 
 ## Checked values
@@ -43,17 +43,18 @@ wx_non_fe_value=57,975,000
 
 | Metric | Value |
 | --- | ---: |
-| WX reference rows | 45 |
-| WX + FE matched qty | 336 |
-| WX + FE matched sell value | 117,100,000 CR |
-| non-FE WX qty | 154 |
-| non-FE WX sell value | 57,975,000 CR |
+| WX reference rows | 46 |
+| WX + FE matched qty | 339 |
+| WX + FE matched sell value | 117,475,000 CR |
+| non-FE WX qty | 157 |
+| non-FE WX sell value | 58,350,000 CR |
 | FE qty | 182 |
 | FE sell value | 59,125,000 CR |
 
 ## Notes
 
-- `WX + FE`는 `Wheelspin / Seasonal` 기준 목록 45종 전체입니다.
+- `WX + FE`는 `Wheelspin / Seasonal` 기준 목록 46종 전체입니다.
 - `non-FE WX`는 위 목록에서 Forza Edition 차량 8종을 제외한 값입니다.
+- 추가 스크린샷 검증으로 WX 기준 목록과 Epic WS 플래그를 보정했습니다.
 - `FE`는 별도 통계로 유지합니다.
 - `Xcl?` 및 Car Mastery 관련 열은 아직 검증 대상에 넣지 않았습니다.
