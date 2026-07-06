@@ -44,3 +44,4 @@ id,class,pi,manufacturer,car_name,category,country,source,notes
 43,R,913,Rimac,2021 Rimac Nevera,Hypercars,Croatia,"Wheelspin, Seasonal",base
 44,A,677,RJ Anderson,2021 RJ Anderson #37 Polaris RZR Pro 4 Truck,Unlimited Offroad,USA,"Wheelspin, Seasonal",base
 45,S1,800,Wuling,2013 Wuling Sunshine S Forza Edition,Track Toys,China,"Wheelspin, Seasonal",base
+46,D,?,Toyota,1965 Toyota Sports 800,Classic Sports Cars,Japan,"Wheelspin, Seasonal",confirmed_from_source_image
