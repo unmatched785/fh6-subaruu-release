@@ -1,0 +1,121 @@
+row_id,source_image,rarity,car_name,ws_exclusive,xcl,rate_of_rarity_percent,qty,sell_for_cr,total_sell_value_cr,verified
+1,통계4.webp,Epic,2007 Alfa Romeo 8C Competizione,no,unknown,1.3,7,156000,1092000,false
+2,통계4.webp,Epic,2015 Alumicraft Class 10 Race Car,no,unknown,1.1,6,22500,135000,false
+3,통계4.webp,Epic,2021 Alumicraft #122 Class 1 Buggy,no,unknown,1.3,7,80000,560000,false
+4,통계4.webp,Epic,2022 Alumicraft #6165 Trick Truck,no,unknown,0.7,4,150000,600000,false
+5,통계4.webp,Epic,2013 Ariel Atom 500 V8,no,unknown,0.5,3,95000,285000,false
+6,통계4.webp,Epic,2017 Aston Martin DB11,no,unknown,0.7,4,87500,350000,false
+7,통계4.webp,Epic,2019 Aston Martin DBS Superleggera,yes,unknown,0.9,5,137500,687500,false
+8,통계4.webp,Epic,1983 Audi Sport quattro,yes,unknown,1.1,6,325000,1950000,false
+9,통계4.webp,Epic,2009 Audi RS6,no,unknown,0.5,3,21000,63000,false
+10,통계4.webp,Epic,2013 Audi RS7 Sportback,no,unknown,1.1,6,27500,165000,false
+11,통계4.webp,Epic,2016 Audi R8 V10 plus,no,unknown,0.5,3,80000,240000,false
+12,통계4.webp,Epic,2014 BAC Mono,no,unknown,0.9,5,98000,490000,false
+13,통계4.webp,Epic,2016 Bentley Bentayga,yes,unknown,1.5,8,125000,1000000,false
+14,통계4.webp,Epic,2010 BMW M3 GTS,no,unknown,0.9,5,99000,495000,false
+15,통계4.webp,Epic,2016 BMW M4 GTS,no,unknown,0.7,4,62500,250000,false
+16,통계4.webp,Epic,2020 BMW M2 Competition Coupe,yes,unknown,0.9,5,125000,625000,false
+17,통계4.webp,Epic,2024 BMW X6 M Competition,no,unknown,0.5,3,70000,210000,false
+18,통계4.webp,Epic,2019 Casey Currie Motorsports #4402 Ultra 4 Trophy Jeep,yes,unknown,1.1,6,125000,750000,false
+19,통계4.webp,Epic,1960 Chevrolet Corvette,yes,unknown,0.5,3,125000,375000,false
+20,통계4.webp,Epic,1970 Chevrolet Corvette ZR-1,no,unknown,1.1,6,125000,750000,false
+21,통계4.webp,Epic,2019 Chevrolet Corvette ZR1,yes,unknown,1.1,6,125000,750000,false
+22,통계4.webp,Epic,2023 Chevrolet Corvette Z06,no,unknown,1.1,6,77500,465000,false
+23,통계4.webp,Epic,2024 Chevrolet Corvette E-Ray,no,unknown,0.7,4,57000,228000,false
+24,통계4.webp,Epic,2018 DeBerti Chevrolet Silverado 1500 Drift Truck,no,unknown,0.7,4,125000,500000,false
+25,통계4.webp,Epic,2018 DeBerti Jeep Wrangler Unlimited,no,unknown,0.9,5,75000,375000,false
+26,통계4.webp,Epic,2019 DeBerti Ford Super Duty F-250 Lariat Transformer,no,unknown,0.5,3,137500,412500,false
+27,통계4.webp,Epic,1970 Dodge Challenger R/T,yes,unknown,0.7,4,262500,1050000,false
+28,통계4.webp,Epic,2016 Dodge Viper ACR,yes,unknown,1.1,6,145000,870000,false
+29,통계4.webp,Epic,1969 Ferrari Dino 246 GT,no,unknown,1.6,9,195000,1755000,false
+30,통계4.webp,Epic,1992 Ferrari 512 TR,yes,unknown,0.4,2,175000,350000,false
+31,통계4.webp,Epic,1994 Ferrari F355 Berlinetta,yes,unknown,0.4,2,125000,250000,false
+32,통계4.webp,Epic,2007 Ferrari 430 Scuderia,no,unknown,0.5,3,177500,532500,false
+33,통계4.webp,Epic,2009 Ferrari 458 Italia,no,unknown,0.4,2,105000,210000,false
+34,통계4.webp,Epic,2013 Ferrari 458 Speciale,no,unknown,0.9,5,250000,1250000,false
+35,통계4.webp,Epic,2015 Ferrari 488 GTB,no,unknown,0.2,1,125000,125000,false
+36,통계4.webp,Epic,2015 Ferrari F12tdf,no,unknown,1.3,7,250000,1750000,false
+37,통계4.webp,Epic,2018 Ferrari Portofino,no,unknown,0.7,4,100000,400000,false
+38,통계4.webp,Epic,2019 Ferrari 488 Pista,no,unknown,1.6,9,358000,3222000,false
+39,통계4.webp,Epic,1977 Ford #5 Escort RS1800 MkII,no,unknown,1.3,7,92500,647500,false
+40,통계4.webp,Epic,1994 Ford Supervan 3,no,unknown,0.9,5,125000,625000,false
+41,통계4.webp,Epic,2014 Ford #11 Rockstar F-150 Trophy Truck,no,unknown,0.5,3,225000,675000,false
+42,통계4.webp,Epic,2014 Ford Ranger T6 Rally Raid,yes,unknown,0.4,2,175000,350000,false
+43,통계4.webp,Epic,2017 Ford GT,no,unknown,1.6,9,250000,2250000,false
+44,통계4.webp,Epic,2017 Ford M-Sport Fiesta RS,yes,unknown,0.9,5,125000,625000,false
+45,통계4.webp,Epic,2020 Ford #2069 Ford Performance Bronco R,no,unknown,0.4,2,225000,450000,false
+46,통계4.webp,Epic,2022 Ford Bronco Raptor,no,unknown,0.4,2,25000,50000,false
+47,통계4.webp,Epic,2022 Ford F-150 Lightning,yes,unknown,0.7,4,125000,500000,false
+48,통계4.webp,Epic,2023 Ford F-150 Raptor R,no,unknown,1.1,6,25000,150000,false
+49,통계4.webp,Epic,2024 Ford Mustang GT,no,unknown,0.4,2,22500,45000,false
+50,통계4.webp,Epic,1989 Formula Drift #98 BMW 325i,no,unknown,0.9,5,75000,375000,false
+51,통계4.webp,Epic,1995 Formula Drift #34 Toyota Supra MkIV,no,unknown,1.1,6,75000,450000,false
+52,통계4.webp,Epic,2006 Formula Drift #43 Dodge Viper SRT-10 ACR,yes,unknown,0.2,1,125000,125000,false
+53,통계4.webp,Epic,2013 Formula Drift #777 Chevrolet Corvette,no,unknown,0.4,2,137500,275000,false
+54,통계4.webp,Epic,2015 Formula Drift #13 Ford Mustang,yes,unknown,0.7,4,125000,500000,false
+55,통계4.webp,Epic,2016 Formula Drift #530 HSV Maloo GEN-F,no,unknown,0.5,3,75000,225000,false
+56,통계4.webp,Epic,2019 Formula Drift #411 Toyota Corolla Hatchback,no,unknown,0.9,5,75000,375000,false
+57,통계4.webp,Epic,2020 Formula Drift #151 Toyota GR Supra,no,unknown,0.9,5,92500,462500,false
+58,통계4.webp,Epic,2020 Formula Drift #91 BMW M2,no,unknown,0.5,3,75000,225000,false
+59,통계4.webp,Epic,2023 Formula Drift #64 Forsberg Racing Nissan Z,no,unknown,0.5,3,100000,300000,false
+60,통계4.webp,Epic,1991 GMC Syclone,no,unknown,0.5,3,23000,69000,false
+61,통계4.webp,Epic,1992 GMC Typhoon,no,unknown,0.2,1,19000,19000,false
+62,통계4.webp,Epic,2022 GMC Hummer EV Pickup,no,unknown,1.6,9,47500,427500,false
+63,통계4.webp,Epic,1984 Honda City EII,no,unknown,0.9,5,3750,18750,false
+64,통계4.webp,Epic,1992 Honda NSX-R,no,unknown,1.3,7,225000,1575000,false
+65,통계4.webp,Epic,2015 Honda Ridgeline Baja Trophy Truck,no,unknown,0.5,3,200000,600000,false
+66,통계4.webp,Epic,2019 Hyundai Veloster N,no,unknown,0.7,4,10000,40000,false
+67,통계4.webp,Epic,1961 Jaguar E-Type,yes,unknown,1.5,8,125000,1000000,false
+68,통계4.webp,Epic,2019 Jimco #240 Fastball Racing Class 6100 Spec Trophy Truck,no,unknown,1.3,7,175000,1225000,false
+69,통계4.webp,Epic,2018 KTM X-Bow GT4,no,unknown,0.9,5,45000,225000,false
+70,통계4.webp,Epic,1999 Lamborghini Diablo GTR,yes,unknown,0.9,5,340000,1700000,false
+71,통계4.webp,Epic,2010 Lamborghini Murcielago LP670-4 SV,no,unknown,1.1,6,500000,3000000,false
+72,통계4.webp,Epic,2012 Lamborghini Aventador LP700-4,yes,unknown,0.4,2,172500,345000,false
+73,통계4.webp,Epic,2012 Lamborghini Gallardo LP570-4 Spyder Performante,no,unknown,0.4,2,105000,210000,false
+74,통계4.webp,Epic,2014 Lamborghini Huracan LP610-4,no,unknown,0.4,2,100000,200000,false
+75,통계4.webp,Epic,2022 Maserati MC20,no,unknown,0.4,2,110000,220000,false
+76,통계4.webp,Epic,1990 Mazda Savanna RX-7,no,unknown,0.7,4,11500,46000,false
+77,통계4.webp,Epic,2022 Mazda MX-5 Miata RF,no,unknown,0.7,4,14500,58000,false
+78,통계4.webp,Epic,2011 McLaren 12C Coupe,no,unknown,0.7,4,52500,210000,false
+79,통계4.webp,Epic,2014 McLaren 650S Spider,no,unknown,1.5,8,65000,520000,false
+80,통계4.webp,Epic,2015 McLaren 570S Coupé,no,unknown,1.5,8,65000,520000,false
+81,통계4.webp,Epic,2021 McLaren 620R,yes,unknown,1.6,9,130000,1170000,false
+82,통계4.webp,Epic,2021 McLaren 765LT Coupe,no,unknown,0.7,4,179000,716000,false
+83,통계4.webp,Epic,2023 McLaren Artura,no,unknown,0.5,3,110000,330000,false
+84,통계4.webp,Epic,2018 Mercedes-AMG E63 S,no,unknown,0.4,2,31500,63000,false
+85,통계4.webp,Epic,2018 Mercedes-AMG GT 4-Door Coupé,yes,unknown,1.1,6,125000,750000,false
+86,통계4.webp,Epic,2021 Mercedes-AMG GT Black Series,no,unknown,1.6,9,220000,1980000,false
+87,통계4.webp,Epic,2009 Mercedes-Benz SL 65 AMG Black Series,no,unknown,1.5,8,180000,1440000,false
+88,통계4.webp,Epic,2014 Mercedes-Benz G63 AMG 6x6,yes,unknown,0.5,3,390000,1170000,false
+89,통계4.webp,Epic,1971 Meyers Manx,no,unknown,0.2,1,17000,17000,false
+90,통계4.webp,Epic,2023 Meyers Manx 2.0,no,unknown,1.1,6,37000,222000,false
+91,통계4.webp,Epic,2013 MINI X-Raid All4 Racing Countryman,no,unknown,1.5,8,110000,880000,false
+92,통계4.webp,Epic,1969 Nissan Fairlady Z432,no,unknown,0.4,2,125000,250000,false
+93,통계4.webp,Epic,1973 Nissan Skyline H/T 2000GT-R,yes,unknown,0.5,3,208000,624000,false
+94,통계4.webp,Epic,1993 Nissan 240SX,no,unknown,1.1,6,125000,750000,false
+95,통계4.webp,Epic,1997 Nissan Stagea RS Four V,no,unknown,1.1,6,10000,60000,false
+96,통계4.webp,Epic,2020 Nissan GT-R NISMO (R35),no,unknown,0.5,3,135000,405000,false
+97,통계4.webp,Epic,2024 Nissan Z NISMO,no,unknown,0.4,2,30000,60000,false
+98,통계4.webp,Epic,2010 Noble M600,no,unknown,1.5,8,161000,1288000,false
+99,통계4.webp,Epic,1971 Plymouth Cuda 426 Hemi,no,unknown,0.9,5,62500,312500,false
+100,통계4.webp,Epic,1995 Porsche 911 GT2,yes,unknown,0.5,3,550000,1650000,false
+101,통계4.webp,Epic,2005 Porsche Cayman GT3 WTAC,no,unknown,0.2,1,90000,90000,false
+102,통계4.webp,Epic,2018 Porsche 718 Cayman GTS,no,unknown,0.7,4,37500,150000,false
+103,통계4.webp,Epic,2018 Porsche 911 GT2 RS,no,unknown,1.1,6,275000,1650000,false
+104,통계4.webp,Epic,2018 Porsche Cayenne Turbo,no,unknown,1.6,9,39500,355500,false
+105,통계4.webp,Epic,2018 Porsche Macan LPR Rally Raid,no,unknown,0.4,2,125000,250000,false
+106,통계4.webp,Epic,2019 Porsche 911 GT3 RS,yes,unknown,1.5,8,125000,1000000,false
+107,통계4.webp,Epic,2021 Porsche 911 GT3,no,unknown,0.5,3,130000,390000,false
+108,통계4.webp,Epic,2023 Porsche 911 GT3 RS,no,unknown,0.5,3,212000,636000,false
+109,통계4.webp,Epic,2015 Radical RXC Turbo,no,unknown,0.7,4,73500,294000,false
+110,통계4.webp,Epic,2021 Rivian R1T,no,unknown,0.9,5,28000,140000,false
+111,통계4.webp,Epic,2021 RJ Anderson #37 Polaris RZR Pro 4 Truck,yes,unknown,0.7,4,125000,500000,false
+112,통계4.webp,Epic,2020 Sierra Cars #23 Yokohama ALPHA,no,unknown,1.5,8,32500,260000,false
+113,통계4.webp,Epic,1994 Subaru Vivio RX-R,no,unknown,0.9,5,5000,25000,false
+114,통계4.webp,Epic,2022 Subaru BRZ,no,unknown,1.1,6,14000,84000,false
+115,통계4.webp,Epic,2022 Subaru WRX,no,unknown,0.5,3,12500,37500,false
+116,통계4.webp,Epic,1985 Toyota Sprinter Trueno GT Apex,no,unknown,0.2,1,15000,15000,false
+117,통계4.webp,Epic,2021 Toyota GR Yaris,no,unknown,0.7,4,27000,108000,false
+118,통계4.webp,Epic,2015 Ultima Evolution Coupe 1020,no,unknown,0.9,5,75000,375000,false
+119,통계4.webp,Epic,1982 Volkswagen Pickup LX,no,unknown,0.4,2,8000,16000,false
+120,통계4.webp,Epic,2017 Volkswagen #34 Andretti Rally Cross Beetle,no,unknown,0.5,3,75000,225000,false
