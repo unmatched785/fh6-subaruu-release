@@ -29,20 +29,23 @@ All Clothes / Horns / Emotes 획득 후 기록
 | `derived_metrics.csv` | Legendary/FE 비율, 가치 비중 등 계산값 |
 | `common_vehicles_draft.csv` | Common 차량 90행 수동 전사 초안 |
 | `common_vehicles_validation.md` | Common 차량 전사 합계 검증 메모 |
+| `rare_vehicles_draft.csv` | Rare 차량 143행 수동 전사 초안 |
+| `rare_vehicles_validation.md` | Rare 차량 전사 합계 검증 메모 |
 | `vehicle_level_schema.md` | 차량별 CSV로 전사할 때 사용할 스키마와 주의점 |
 
 ## Current status
 
-현재 구조화 완료된 값은 이미지의 상단 집계표, CR 보상표, 희귀도별 차량 요약, Common 차량 상세 목록입니다.
+현재 구조화 완료된 값은 이미지의 상단 집계표, CR 보상표, 희귀도별 차량 요약, Common/Rare 차량 상세 목록입니다.
 
 Common 차량 상세 전사는 수량/판매가/총액 합계 검증을 통과했습니다.
+Rare 차량 상세 전사도 수량/판매가/총액 합계 검증을 통과했습니다.
 다만 `WS / Xcl?` 컬럼은 원본 이미지와 제공 텍스트의 정렬이 완전하지 않으므로 아직 완전 검증값이 아닙니다.
 
 차량별 전사는 아래 순서로 진행합니다.
 
 ```text
 1. Common 차량 목록: 전사 완료, 합계 검증 완료, WS/Xcl 미검증
-2. Rare 차량 목록
+2. Rare 차량 목록: 전사 완료, 합계 검증 완료, WS/Xcl 미검증
 3. Epic 차량 목록
 4. Legendary + FE 차량 목록
 ```
