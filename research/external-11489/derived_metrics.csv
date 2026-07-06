@@ -1,0 +1,22 @@
+metric,value,unit,formula_or_source
+legendary_car_rate_all_slots,1.584,percent,182 / 11489
+forza_edition_rate_all_slots,1.584,percent,182 / 11489
+legendary_plus_fe_rate_all_slots,3.168,percent,364 / 11489
+car_prize_rate_all_slots,23.849,percent,2740 / 11489
+cr_prize_rate_all_slots,76.151,percent,8749 / 11489
+avg_cr_prize_value,52251.91,CR,457147000 / 8749
+avg_car_prize_value,229001.19,CR,627423250 / 2740
+avg_common_car_value,25270.70,CR,27771500 / 1099
+avg_rare_car_value,51152.74,CR,37341500 / 730
+avg_epic_car_value,124706.12,CR,68214250 / 547
+avg_legendary_car_value,2389950.55,CR,434971000 / 182
+avg_fe_car_value,324862.64,CR,59125000 / 182
+cr_value_share_total_value,42.151,percent,457147000 / 1084570250
+car_value_share_total_value,57.849,percent,627423250 / 1084570250
+legendary_plus_fe_value_cr,494096000,CR,434971000 + 59125000
+legendary_plus_fe_share_of_car_value,78.753,percent,494096000 / 627423250
+legendary_car_share_of_car_value,69.331,percent,434971000 / 627423250
+fe_car_share_of_car_value,9.421,percent,59125000 / 627423250
+non_legendary_fe_car_qty,2376,cars,2740 - 364
+non_legendary_fe_car_value_cr,133327250,CR,627423250 - 494096000
+avg_non_legendary_fe_car_value,56114.16,CR,133327250 / 2376
