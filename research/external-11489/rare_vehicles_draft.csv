@@ -1,0 +1,144 @@
+row_id,source_image,rarity,car_name,ws_exclusive,xcl,rate_of_rarity_percent,qty,sell_for_cr,total_sell_value_cr,verified
+1,통계3.webp,Rare,2023 Acura Integra A-Spec,no,unknown,1.1,8,18000,144000,false
+2,통계3.webp,Rare,1965 Alfa Romeo Giulia Sprint GTA Stradale,no,unknown,0.5,4,171500,686000,false
+3,통계3.webp,Rare,2017 Alfa Romeo Giulia Quadrifoglio,no,unknown,1.0,7,22500,157500,false
+4,통계3.webp,Rare,2016 Ariel Nomad,no,unknown,0.7,5,27000,135000,false
+5,통계3.webp,Rare,2003 Audi RS6,no,unknown,0.8,6,17500,105000,false
+6,통계3.webp,Rare,2006 Audi RS4,no,unknown,0.1,1,37500,37500,false
+7,통계3.webp,Rare,2009 Audi R8 LMS,no,unknown,1.0,7,450000,3150000,false
+8,통계3.webp,Rare,2010 Audi TTRS Coupe,no,unknown,1.0,7,17500,122500,false
+9,통계3.webp,Rare,2011 Audi RS5 Coupe,no,unknown,1.0,7,12500,87500,false
+10,통계3.webp,Rare,2013 Audi RS4 Avant,no,unknown,0.5,4,15000,60000,false
+11,통계3.webp,Rare,2015 Audi RS6 Avant,no,unknown,0.7,5,30000,150000,false
+12,통계3.webp,Rare,2018 Audi RS4 Avant,no,unknown,0.3,2,25000,50000,false
+13,통계3.webp,Rare,2020 Audi R8 V10 performance,no,unknown,0.4,3,140500,421500,false
+14,통계3.webp,Rare,2020 Audi RS3 Sedan,no,unknown,0.8,6,26000,156000,false
+15,통계3.webp,Rare,2021 Audi RS6 Avant,no,unknown,0.8,6,41500,249000,false
+16,통계3.webp,Rare,2021 Audi RS7 Sportback,no,unknown,0.4,3,40000,120000,false
+17,통계3.webp,Rare,1993 Autozam AZ-1,no,unknown,0.4,3,19000,57000,false
+18,통계3.webp,Rare,2021 Bentley Continental GT Convertible,no,unknown,0.1,1,85000,85000,false
+19,통계3.webp,Rare,1988 BMW M3,no,unknown,0.5,4,125000,500000,false
+20,통계3.webp,Rare,1988 BMW M5,no,unknown,0.1,1,35000,35000,false
+21,통계3.webp,Rare,1995 BMW 850CSi,no,unknown,0.5,4,67500,270000,false
+22,통계3.webp,Rare,1995 BMW M5,no,unknown,0.4,3,24000,72000,false
+23,통계3.webp,Rare,2008 BMW Z4 M Coupe,no,unknown,1.1,8,31500,252000,false
+24,통계3.webp,Rare,2009 BMW M5,no,unknown,0.5,4,27000,108000,false
+25,통계3.webp,Rare,2012 BMW M5,no,unknown,0.3,2,20000,40000,false
+26,통계3.webp,Rare,2014 BMW M4 Coupe,no,unknown,0.3,2,27500,55000,false
+27,통계3.webp,Rare,2015 BMW i8,no,unknown,1.0,7,35000,245000,false
+28,통계3.webp,Rare,2020 BMW M8 Competition Coupé,no,unknown,1.0,7,50000,350000,false
+29,통계3.webp,Rare,2021 BMW M4 Competition Coupe,no,unknown,1.0,7,32000,224000,false
+30,통계3.webp,Rare,2022 BMW M5 CS,no,unknown,1.1,8,75000,600000,false
+31,통계3.webp,Rare,2022 BMW iX xDrive50,no,unknown,0.5,4,18500,74000,false
+32,통계3.webp,Rare,2023 BMW M2,no,unknown,0.7,5,33500,167500,false
+33,통계3.webp,Rare,2013 Cadillac XTS Limousine,no,unknown,0.7,5,22000,110000,false
+34,통계3.webp,Rare,2022 Cadillac CT4-V Blackwing,no,unknown,0.3,2,27500,55000,false
+35,통계3.webp,Rare,2022 Cadillac CT5-V Blackwing,no,unknown,0.4,3,45000,135000,false
+36,통계3.webp,Rare,1957 Chevrolet Bel Air,no,unknown,0.7,5,34500,172500,false
+37,통계3.webp,Rare,1969 Chevrolet Camaro Super Sport Coupe,no,unknown,1.0,7,37500,262500,false
+38,통계3.webp,Rare,1970 Chevrolet Camaro Z28,no,unknown,0.8,6,27500,165000,false
+39,통계3.webp,Rare,1970 Chevrolet Chevelle Super Sport 454,no,unknown,0.7,5,45000,225000,false
+40,통계3.webp,Rare,1970 Chevrolet El Camino Super Sport 454,no,unknown,1.1,8,18000,144000,false
+41,통계3.webp,Rare,1979 Chevrolet Camaro Z28,no,unknown,0.5,4,10000,40000,false
+42,통계3.webp,Rare,2009 Chevrolet Corvette ZR1,no,unknown,1.2,9,62500,562500,false
+43,통계3.webp,Rare,2015 Chevrolet Camaro Z/28,no,unknown,0.7,5,32500,162500,false
+44,통계3.webp,Rare,2015 Chevrolet Corvette Z06,no,unknown,1.2,9,50000,450000,false
+45,통계3.webp,Rare,2017 Chevrolet Camaro ZL1,no,unknown,0.5,4,27500,110000,false
+46,통계3.webp,Rare,2018 Chevrolet Camaro ZL1 1LE,no,unknown,0.8,6,35000,210000,false
+47,통계3.webp,Rare,2020 Chevrolet Corvette Stingray Coupe,no,unknown,0.4,3,32500,97500,false
+48,통계3.webp,Rare,2020 Chevrolet Silverado LT Trail Boss,no,unknown,1.2,9,21500,193500,false
+49,통계3.webp,Rare,1970 Dodge Coronet Super Bee,no,unknown,1.0,7,87500,612500,false
+50,통계3.webp,Rare,2008 Dodge Viper SRT-10 ACR,no,unknown,1.0,7,57500,402500,false
+51,통계3.webp,Rare,2015 Dodge Challenger SRT Hellcat,no,unknown,0.4,3,26500,79500,false
+52,통계3.webp,Rare,2015 Dodge Charger SRT Hellcat,no,unknown,0.5,4,22000,88000,false
+53,통계3.webp,Rare,2018 Dodge Challenger SRT Demon,no,unknown,0.5,4,45000,180000,false
+54,통계3.webp,Rare,2022 Dodge Challenger SRT Super Stock,no,unknown,0.4,3,43500,130500,false
+55,통계3.webp,Rare,2017 Ferrari J50,no,unknown,0.1,1,1250000,1250000,false
+56,통계3.webp,Rare,1969 Ford Mustang Boss 302,no,unknown,0.5,4,37500,150000,false
+57,통계3.webp,Rare,1973 Ford Capri RS3100,no,unknown,1.0,7,34500,241500,false
+58,통계3.webp,Rare,1973 Ford XB Falcon GT,no,unknown,1.5,11,109000,1199000,false
+59,통계3.webp,Rare,1992 Ford Escort RS Cosworth,no,unknown,0.8,6,32500,195000,false
+60,통계3.webp,Rare,1999 Ford Racing Puma,no,unknown,0.5,4,15000,60000,false
+61,통계3.webp,Rare,2001 Ford #4 Ford Focus RS,no,unknown,0.7,5,207500,1037500,false
+62,통계3.webp,Rare,2011 Ford Transit SuperSport Van,no,unknown,0.4,3,21000,63000,false
+63,통계3.webp,Rare,2013 Ford Mustang Shelby GT500,no,unknown,0.5,4,30000,120000,false
+64,통계3.webp,Rare,2016 Ford Mustang Shelby GT350R,no,unknown,1.4,10,44000,440000,false
+65,통계3.webp,Rare,2018 Ford Mustang RTR Spec 5,no,unknown,0.5,4,17500,70000,false
+66,통계3.webp,Rare,2020 Ford Mustang Shelby GT500,no,unknown,0.4,3,62500,187500,false
+67,통계3.webp,Rare,1977 Holden Torana A9X,no,unknown,1.0,7,250000,1750000,false
+68,통계3.webp,Rare,1991 Honda Beat,no,unknown,0.5,4,7500,30000,false
+69,통계3.webp,Rare,2018 Honda Civic Type R,no,unknown,1.1,8,17500,140000,false
+70,통계3.webp,Rare,2023 Honda Civic Type R,no,unknown,0.5,4,21500,86000,false
+71,통계3.webp,Rare,2014 HSV GEN-F GTS,no,unknown,0.3,2,40500,81000,false
+72,통계3.webp,Rare,2020 Hyundai i30 N,no,unknown,0.4,3,16000,48000,false
+73,통계3.webp,Rare,2021 Hyundai i20 N,no,unknown,1.4,10,24000,240000,false
+74,통계3.webp,Rare,2022 Hyundai N Vision 74,no,unknown,0.3,2,162500,325000,false
+75,통계3.webp,Rare,2023 Hyundai Ioniq 5 N,no,unknown,0.5,4,11000,44000,false
+76,통계3.webp,Rare,1993 Jaguar XJ220S TWR,no,unknown,1.5,11,270000,2970000,false
+77,통계3.webp,Rare,2016 Jeep Trailcat,no,unknown,0.4,3,35000,105000,false
+78,통계3.webp,Rare,2020 Jimco #179 Hammerhead Class 1,no,unknown,0.5,4,47500,190000,false
+79,통계3.webp,Rare,1986 Lancia Delta S4,no,unknown,0.4,3,27500,82500,false
+80,통계3.webp,Rare,2015 Lexus RCF,no,unknown,1.2,9,17500,157500,false
+81,통계3.webp,Rare,2021 Lexus LC 500,no,unknown,1.0,7,39500,276500,false
+82,통계3.webp,Rare,2024 Lucid Air Sapphire,no,unknown,0.5,4,120000,480000,false
+83,통계3.webp,Rare,2011 Mazda RX-8 R3,no,unknown,0.8,6,16500,99000,false
+84,통계3.webp,Rare,2015 Mercedes-AMG GTS,no,unknown,0.7,5,45000,225000,false
+85,통계3.webp,Rare,2016 Mercedes-AMG C 63 S Coupe,no,unknown,0.4,3,17000,51000,false
+86,통계3.webp,Rare,2020 Mercedes-AMG SLC 43 Final Edition,no,unknown,0.3,2,25000,50000,false
+87,통계3.webp,Rare,2021 Mercedes-AMG SL 63,no,unknown,0.1,1,60000,60000,false
+88,통계3.webp,Rare,2013 Mercedes-Benz A45 AMG,no,unknown,0.5,4,12500,50000,false
+89,통계3.webp,Rare,2014 Mercedes-Benz Unimog U5023,no,unknown,1.1,8,117500,940000,false
+90,통계3.webp,Rare,1965 MINI Cooper S,no,unknown,0.5,4,19500,78000,false
+91,통계3.webp,Rare,2012 MINI John Cooper Works GP,no,unknown,0.4,3,15000,45000,false
+92,통계3.webp,Rare,1992 Mitsubishi Galant VR-4,no,unknown,0.7,5,12500,62500,false
+93,통계3.webp,Rare,1995 Mitsubishi Montero Exceed 2800 TD,no,unknown,1.1,8,12500,100000,false
+94,통계3.webp,Rare,2004 Mitsubishi Lancer Evolution VIII MR,no,unknown,0.7,5,15000,75000,false
+95,통계3.webp,Rare,2008 Mitsubishi Lancer Evolution X GSR,no,unknown,0.8,6,12500,75000,false
+96,통계3.webp,Rare,1989 Nissan S-Cargo,no,unknown,0.8,6,9500,57000,false
+97,통계3.webp,Rare,1990 Nissan Pulsar GTI-R,no,unknown,0.8,6,14000,84000,false
+98,통계3.webp,Rare,1992 Nissan Skyline GT-R,no,unknown,1.0,7,36000,252000,false
+99,통계3.webp,Rare,1995 Nissan Gloria Gran Turismo,no,unknown,0.5,4,7500,30000,false
+100,통계3.webp,Rare,2000 Nissan Skyline GT-R V-spec II,no,unknown,0.7,5,100000,500000,false
+101,통계3.webp,Rare,2012 Nissan GT-R Black Edition (R35),no,unknown,0.5,4,40000,160000,false
+102,통계3.webp,Rare,2017 Nissan GT-R (R35),no,unknown,0.5,4,57500,230000,false
+103,통계3.webp,Rare,2019 Nissan 370Z Nismo,no,unknown,0.4,3,23000,69000,false
+104,통계3.webp,Rare,2011 Penhall The Cholla,no,unknown,0.8,6,42500,255000,false
+105,통계3.webp,Rare,1991 Peugeot 205 Rallye,no,unknown,0.7,5,11000,55000,false
+106,통계3.webp,Rare,1958 Plymouth Fury,no,unknown,0.4,3,26500,79500,false
+107,통계3.webp,Rare,1968 Plymouth Barracuda Formula S,no,unknown,0.7,5,22500,112500,false
+108,통계3.webp,Rare,2021 Polaris RZR Pro XP Factory Racing Limited Edition,no,unknown,0.4,3,25000,75000,false
+109,통계3.webp,Rare,1977 Pontiac Firebird Trans Am,no,unknown,1.0,7,30000,210000,false
+110,통계3.webp,Rare,1989 Porsche 944 Turbo,no,unknown,0.7,5,15000,75000,false
+111,통계3.webp,Rare,1993 Porsche 928 GTS,no,unknown,1.4,10,75000,750000,false
+112,통계3.webp,Rare,1993 Porsche 968 Turbo S,no,unknown,1.0,7,260000,1820000,false
+113,통계3.webp,Rare,2004 Porsche 911 GT3,no,unknown,0.5,4,67500,270000,false
+114,통계3.webp,Rare,2019 Porsche 911 Carrera S,no,unknown,1.0,7,72500,507500,false
+115,통계3.webp,Rare,2023 Porsche 911 Turbo S,no,unknown,1.1,8,137500,1100000,false
+116,통계3.webp,Rare,1980 Renault 5 Turbo,no,unknown,0.3,2,71500,143000,false
+117,통계3.webp,Rare,2008 Renault Megane R26.R,no,unknown,0.8,6,29000,174000,false
+118,통계3.webp,Rare,2018 Renault Megane R.S.,no,unknown,1.0,7,16000,112000,false
+119,통계3.webp,Rare,2021 Sierra Cars 700R,no,unknown,0.4,3,37500,112500,false
+120,통계3.webp,Rare,2021 Sierra Cars RX3,no,unknown,1.2,9,25000,225000,false
+121,통계3.webp,Rare,2013 SRT Viper GTS,no,unknown,0.8,6,67500,405000,false
+122,통계3.webp,Rare,2008 Subaru Impreza WRX STI,no,unknown,0.4,3,13500,40500,false
+123,통계3.webp,Rare,2011 Subaru WRX STI,no,unknown,0.4,3,13500,40500,false
+124,통계3.webp,Rare,1965 Toyota Sports 800,yes,unknown,0.4,3,125000,375000,false
+125,통계3.webp,Rare,1991 Toyota Chaser GT Twin Turbo,no,unknown,1.0,7,10000,70000,false
+126,통계3.webp,Rare,1991 Toyota Sera,no,unknown,1.5,11,5500,60500,false
+127,통계3.webp,Rare,1992 Toyota Supra 2.0 GT,no,unknown,0.5,4,14000,56000,false
+128,통계3.webp,Rare,1995 Toyota MR2 GT,no,unknown,0.5,4,14000,56000,false
+129,통계3.webp,Rare,1997 Toyota Soarer 2.5 GT-T,no,unknown,0.8,6,9000,54000,false
+130,통계3.webp,Rare,1998 Toyota Supra RZ,no,unknown,1.0,7,30000,210000,false
+131,통계3.webp,Rare,2003 Toyota Celica Sport Specialty II,no,unknown,0.3,2,6000,12000,false
+132,통계3.webp,Rare,2013 Toyota 86,no,unknown,0.7,5,7500,37500,false
+133,통계3.webp,Rare,2019 Toyota 4Runner TRD Pro,no,unknown,0.8,6,21000,126000,false
+134,통계3.webp,Rare,2019 Toyota Tacoma TRD Pro,no,unknown,1.1,8,17000,136000,false
+135,통계3.webp,Rare,2020 Toyota GR Supra,no,unknown,0.4,3,22500,67500,false
+136,통계3.webp,Rare,2025 Toyota Land Cruiser,no,unknown,0.4,3,35000,105000,false
+137,통계3.webp,Rare,2005 TVR Sagaris,no,unknown,0.5,4,57500,230000,false
+138,통계3.webp,Rare,1969 Volkswagen Class 5/1600 Baja Bug,no,unknown,1.0,7,17500,122500,false
+139,통계3.webp,Rare,2010 Volkswagen Golf R,no,unknown,0.5,4,10000,40000,false
+140,통계3.webp,Rare,2011 Volkswagen Scirocco R,no,unknown,0.5,4,7500,30000,false
+141,통계3.webp,Rare,2022 Volkswagen Golf R,no,unknown,0.8,6,17500,105000,false
+142,통계3.webp,Rare,2013 Wuling Sunshine S,no,unknown,0.8,6,1000,6000,false
+143,통계3.webp,Rare,2022 Wuling Hongguang Mini EV,no,unknown,0.8,6,2500,15000,false
