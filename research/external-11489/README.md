@@ -39,10 +39,10 @@ All Clothes / Horns / Emotes 획득 후 기록
 | `legendary_vehicles_draft.csv` | Legendary 차량 70행 수동 전사 초안 |
 | `forza_edition_vehicles_draft.csv` | FE 차량 8행 수동 전사 초안 |
 | `legendary_fe_vehicles_validation.md` | Legendary/FE 차량 전사 합계 검증 메모 |
-| `wheelspin_only_reference.csv` | 별도 기준으로 확보한 휠스핀 전용/보상 차량 45종 목록 |
-| `wheelspin_only_external_match.csv` | 기준 목록 45종을 외부 11,489 슬롯 표본에 매칭한 결과 |
+| `wheelspin_only_reference.csv` | 휠스핀 전용/보상 차량 46종 목록 |
+| `wheelspin_only_external_match.csv` | 기준 목록 46종을 외부 11,489 슬롯 표본에 매칭한 결과 |
 | `wheelspin_exclusive_summary_reference.csv` | 기준 목록 기반 WX 요약값 |
-| `wheelspin_exclusive_summary_draft.csv` | 이미지의 WS 컬럼을 직접 읽은 초기 초안. reference 파일이 우선 |
+| `wheelspin_exclusive_summary_draft.csv` | 이미지의 WS 컬럼을 직접 읽은 초안 |
 | `name_aliases.csv` | 이름 정규화/별칭 메모 |
 | `ws_xcl_interpretation.md` | WS / Xcl 해석 메모 |
 | `vehicle_level_schema.md` | 차량별 CSV로 전사할 때 사용할 스키마와 주의점 |
@@ -52,7 +52,7 @@ All Clothes / Horns / Emotes 획득 후 기록
 현재 구조화 완료된 값은 이미지의 상단 집계표, CR 보상표, 희귀도별 차량 요약, Common/Rare/Epic/Legendary/FE 차량 상세 목록입니다.
 
 차량명, 수량, 즉시판매가, 즉시판매 총액은 모든 희귀도에서 합계 검증을 통과했습니다.
-`WS / Xcl?` 판정은 이미지 직접 판독값보다 `wheelspin_only_reference.csv`를 우선합니다.
+`WS / Xcl?` 판정은 추가 스크린샷 검증과 `wheelspin_only_reference.csv`를 우선합니다.
 
 차량별 전사 상태:
 
@@ -62,7 +62,7 @@ All Clothes / Horns / Emotes 획득 후 기록
 3. Epic 차량 목록: 전사 완료, 합계 검증 완료
 4. Legendary 차량 목록: 전사 완료, 합계 검증 완료
 5. FE 차량 목록: 전사 완료, 합계 검증 완료
-6. WX 구분: wheelspin_only_reference.csv 기준으로 별도 매칭 완료
+6. WX 구분: 추가 스크린샷 검증 + wheelspin_only_reference.csv 기준으로 매칭 완료
 ```
 
 전체 차량 전사 합계:
@@ -79,15 +79,15 @@ Total car qty = 2,740 / value = 627,423,250 CR
 WX 기준 목록 매칭 결과:
 
 ```text
-WX reference vehicles = 45 rows
-Matched external sample WX qty = 336
-Matched external sample WX sell value = 117,100,000 CR
-WX_non_FE qty = 154
-WX_non_FE sell value = 57,975,000 CR
+WX reference vehicles = 46 rows
+Matched external sample WX qty = 339
+Matched external sample WX sell value = 117,475,000 CR
+WX_non_FE qty = 157
+WX_non_FE sell value = 58,350,000 CR
 FE qty = 182
 FE sell value = 59,125,000 CR
-WX share of all car prizes = 336 / 2740 = 12.26%
-WX share of all slots = 336 / 11489 = 2.92%
+WX share of all car prizes = 339 / 2740 = 12.37%
+WX share of all slots = 339 / 11489 = 2.95%
 ```
 
 ## Use in research
