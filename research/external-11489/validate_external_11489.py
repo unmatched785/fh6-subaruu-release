@@ -32,11 +32,11 @@ TOTAL_EXPECTED = {
 }
 
 WX_EXPECTED = {
-    "rows": 45,
-    "qty": 336,
-    "value": 117_100_000,
-    "non_fe_qty": 154,
-    "non_fe_value": 57_975_000,
+    "rows": 46,
+    "qty": 339,
+    "value": 117_475_000,
+    "non_fe_qty": 157,
+    "non_fe_value": 58_350_000,
     "fe_qty": 182,
     "fe_value": 59_125_000,
 }
