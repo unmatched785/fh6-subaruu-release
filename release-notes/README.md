@@ -3,6 +3,7 @@
 Historical release notes are kept here so the repository root stays focused on
 the current README and guide.
 
+- [2026-07-08 CR apply button and guide](RELEASE_NOTES_20260708_CR_APPLY_BUTTON.md)
 - [2026-07-07 CR budget guard](RELEASE_NOTES_20260707_CR_BUDGET_GUARD.md)
 - [2026-07-04 auction start focus](RELEASE_NOTES_20260704_AUCTION_START_FOCUS.md)
 - [2026-07-03 EventLab code input and work-car detection](RELEASE_NOTES_20260703_EVENTLAB_CODE_WORKCAR.md)
