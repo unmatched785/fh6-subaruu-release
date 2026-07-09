@@ -3,6 +3,7 @@
 Historical release notes are kept here so the repository root stays focused on
 the current README and guide.
 
+- [2026-07-09 super-wheel relative cursor](RELEASE_NOTES_20260709_SUPERWHEEL_RELATIVE_CURSOR.md)
 - [2026-07-09 Subaru tune timing defaults](RELEASE_NOTES_20260709_SUBARU_TUNE_TIMING.md)
 - [2026-07-08 CR budget reapply hotfix](RELEASE_NOTES_20260708_CR_BUDGET_REAPPLY_HOTFIX.md)
 - [2026-07-08 CR apply button and guide](RELEASE_NOTES_20260708_CR_APPLY_BUTTON.md)
