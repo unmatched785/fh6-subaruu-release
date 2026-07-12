@@ -1,13 +1,10 @@
 # Release Notes
 
 Historical release notes are kept here so the repository root stays focused on
-the current README and guide.
+the current README.
 
-- [2026-07-09 super-wheel relative cursor](RELEASE_NOTES_20260709_SUPERWHEEL_RELATIVE_CURSOR.md)
-- [2026-07-09 Subaru tune timing defaults](RELEASE_NOTES_20260709_SUBARU_TUNE_TIMING.md)
-- [2026-07-08 CR budget reapply hotfix](RELEASE_NOTES_20260708_CR_BUDGET_REAPPLY_HOTFIX.md)
-- [2026-07-08 CR apply button and guide](RELEASE_NOTES_20260708_CR_APPLY_BUTTON.md)
-- [2026-07-07 CR budget guard](RELEASE_NOTES_20260707_CR_BUDGET_GUARD.md)
+- [2026-07-12 independent wheelspin](RELEASE_NOTES_20260712_INDEPENDENT_WHEELSPIN.md)
+- [2026-07-11 stability baseline](RELEASE_NOTES_20260711_STABILITY.md)
 - [2026-07-04 auction start focus](RELEASE_NOTES_20260704_AUCTION_START_FOCUS.md)
 - [2026-07-03 EventLab code input and work-car detection](RELEASE_NOTES_20260703_EVENTLAB_CODE_WORKCAR.md)
 - [2026-07-02 status snapshot and W-only Subaru run](RELEASE_NOTES_20260702_STATUS_WONLY.md)
