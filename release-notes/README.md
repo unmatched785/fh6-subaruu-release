@@ -3,6 +3,7 @@
 Historical release notes are kept here so the repository root stays focused on
 the current README.
 
+- [2026-07-13 wheelspin reward ledger](RELEASE_NOTES_20260713_REWARD_LEDGER.md)
 - [2026-07-12 independent wheelspin](RELEASE_NOTES_20260712_INDEPENDENT_WHEELSPIN.md)
 - [2026-07-11 stability baseline](RELEASE_NOTES_20260711_STABILITY.md)
 - [2026-07-04 auction start focus](RELEASE_NOTES_20260704_AUCTION_START_FOCUS.md)
