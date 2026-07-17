@@ -15,7 +15,7 @@ This record seals the exact `v0.5.0` artifact after clean-source packaging, pack
 | .NET SDK | `10.0.300` from `global.json` |
 | Runtime | `win-x64`, self-contained, single-file |
 | Release date | `2026-07-17 KST` |
-| Status | `VALIDATED - AWAITING PUBLICATION` |
+| Status | `SEALED` |
 
 ## Supported baseline
 
@@ -71,12 +71,17 @@ Xbox Game Pass or controller-first environments that retain a virtual keyboard o
 
 ## Publication checklist
 
-- [ ] Create annotated tag `v0.5.0` at the exact artifact source commit.
-- [ ] Publish the same immutable `subaruu.zip` and `.sha256` to `unmatched785/fh6-subaruu`.
-- [ ] Publish the same immutable assets to `unmatched785/fh6-subaruu-release`.
-- [ ] Confirm both releases are non-draft, non-prerelease and selected as Latest.
-- [ ] Re-download both ZIP assets and confirm byte size and SHA-256 are identical.
-- [ ] Set this record to `SEALED` in a later evidence-only commit without rebuilding or moving the tag.
+- [x] Create annotated tag `v0.5.0` at the exact artifact source commit.
+- [x] Publish the same immutable `subaruu.zip` and `.sha256` to `unmatched785/fh6-subaruu`.
+- [x] Publish the same immutable assets to `unmatched785/fh6-subaruu-release`.
+- [x] Confirm both releases are non-draft, non-prerelease and selected as Latest.
+- [x] Re-download both ZIP assets and confirm byte size `65,889,709` and SHA-256 `F655C61F22E8B654B8CC7692BE1BD135CD3BBD9CCB634969DEE28974F0BC8899` are identical.
+- [x] Set this record to `SEALED` in this evidence-only commit without rebuilding or moving the tag.
+
+Release pages:
+
+- Private source repository: https://github.com/unmatched785/fh6-subaruu/releases/tag/v0.5.0
+- Public distribution repository: https://github.com/unmatched785/fh6-subaruu-release/releases/tag/v0.5.0
 
 ## Rebuild command
 
