@@ -12,7 +12,7 @@ This record identifies the exact RC artifact for the background-input experiment
 | Stable base | `v0.5.0` |
 | Artifact source commit | `30466a7d89ba8ff20d13f06362af107400cc16f8` |
 | Release date | `2026-07-17 KST` |
-| Status | `ARTIFACT VALIDATED - AWAITING PUBLICATION AND GAME TEST` |
+| Status | `PUBLISHED - AWAITING GAME TEST` |
 
 ## RC acceptance
 
@@ -39,7 +39,9 @@ Package QA passed with 41 files, 40 manifest entries, 7 licenses, 3 versioned do
 
 ## Publication
 
-- [ ] Private source repository prerelease
-- [ ] Public distribution repository prerelease
-- [ ] Both ZIP assets re-downloaded and SHA-256 verified
+- [x] [Private source repository prerelease](https://github.com/unmatched785/fh6-subaruu/releases/tag/v0.6.0-rc.1)
+- [x] [Public distribution repository prerelease](https://github.com/unmatched785/fh6-subaruu-release/releases/tag/v0.6.0-rc.1)
+- [x] Both ZIP assets re-downloaded and SHA-256 verified
+
+Both releases are non-draft prereleases with `subaruu.zip` and `subaruu.zip.sha256`. Re-downloaded ZIPs were `65,895,243` bytes and matched the recorded SHA-256. The stable `v0.5.0` release remains Latest in both repositories.
 
