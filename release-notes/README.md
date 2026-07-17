@@ -3,6 +3,7 @@
 Historical release notes are kept here so the repository root stays focused on
 the current README.
 
+- [v0.6.0-rc.2 Alt+Tab W recovery](RELEASE_NOTES_v0.6.0-rc.2.md)
 - [v0.6.0-rc.1 background input experiment](RELEASE_NOTES_v0.6.0-rc.1.md)
 - [2026-07-13 wheelspin reward ledger](RELEASE_NOTES_20260713_REWARD_LEDGER.md)
 - [2026-07-12 independent wheelspin](RELEASE_NOTES_20260712_INDEPENDENT_WHEELSPIN.md)
